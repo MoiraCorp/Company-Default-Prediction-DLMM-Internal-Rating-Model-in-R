@@ -1,6 +1,6 @@
 # One by one empirical analysis of variables 
 
-It follows the Chapter 4 section in 4.5.2 Empirical assessment of working hypothesis (page 133)<br>
+It follows the section: 4.5.2 Empirical assessment of working hypothesis (page 133 of the DLMM book)<br>
 We want to compute the "descriptive statistics" for each good/bad group for each of the following variables :
 <ul>
 <li><strong>ROE</strong> (Ratio Net Profit/Equity)</li>
@@ -35,7 +35,7 @@ X12    2 "Good"    1 1221  45.73707  459.6099 10.000 17.53419 31.45188 -5500  83
 X11    1  "Bad"    1   51 6.487020 14.562831  4.524 4.421317 2.244656   0 107.407 107.407 6.516170 42.225823 2.03920416<br>
 X12    2 "Good"    1 1221 3.820161  2.567423  3.480 3.604277 2.379573   0  23.950  23.950 1.293554  4.471053 0.07347501
 
-### Computing basic good-bad satistics for variable: V110A(Ratio Inventories/Total Assets [%])
+### Computing basic good-bad satistics for variable: V110A (Ratio Inventories/Total Assets [%])
 > mt_dat <- describeBy(wcs2train$V110A, wcs2train$BADGOOD, mat=T)
 > write.csv(mt_dat, file = "C:/Projets_En_Cours/AI_MTPL/UCI_Internal_Ratings/R Notes/describe_V110A.csv")<br>
 > mt_dat<br>
@@ -47,4 +47,10 @@ X12    2 "Good"    1 1221 20.85190 23.25327 12.832 16.66432 17.5955   0 101.529 
 
 ### Compare with corresponding results presented in DLMM Book
 
-### Notes
+<img src="Table_4_6_Page 133_Describe_3Ratio.JPG" alt="drawing" width="100%"/>
+<em>NOTE</em> : The "pretty" presentation of the variable statistics was created by collating the 3 .csv tables in one .xls table
+using Edit-Paste Special-Tanspose in OpenOfficeCalc<br>
+Also, correct printing to pdf in "Lanscape" mode was set using the File-Page Preview option<br>
+
+<br><strong>The descriptive statistics match those presented in page 133 of the DLMM book.</strong><br>
+<em>NOTE</em> : The last term ("se") listed by the describeBy() function is what is called the Standard Error of the mean as explained in page 132 of the DLMM book.
