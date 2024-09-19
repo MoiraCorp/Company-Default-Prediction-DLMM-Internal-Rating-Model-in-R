@@ -8,7 +8,7 @@ Step by step transcription in R language of the internal rating models approach 
 This implementation follows step by step the content of Chap. 4:  Developing a statistical based rating system, pp. 93-236
 
 > <p><strong>Step 1</strong> - Converting SPSS formatted data -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/step1)</p>
-> <p><strong>Step 2</strong> - One by one empirical analysis of variables</p>
+> <p><strong>Step 2</strong> - One by one empirical analysis of variables -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/step1)</p>
 > <p><strong>Step 3</strong> - Cross-tabulation 01STATUS versus Industry Sector Code</p>
 > <p><strong>Step 4</strong> - One by one graphical display of variables' distribution</p>
 > <p><strong>Step 5</strong> - One by one good/bad discriminant power of variables Code</p>
