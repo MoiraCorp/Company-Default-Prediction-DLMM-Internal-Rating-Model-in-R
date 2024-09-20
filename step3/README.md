@@ -47,11 +47,9 @@ Relating to Benzécri notation, cTabi is pij/pi and cTabj is pij/pj
 > cTabjr <- cbind(names, cTabjdf)<br>
 > cTabwij <- merge(cTabwi, cTabjr, by="names")<br>
 
-### Display and interpretation
-
-
-
 #### The resulting table is exported to a .csv file
 > write.csv(cTabwij, file = "C:/Projets_En_Cours/AI_MTPL/UCI_Internal_Ratings/R Notes/defaultrates_sector.csv")
 
+### Display and interpretation
+<img src="Table_4_8_Page 138_Default_Sectors.JPG" alt="drawing" width="100%"/>
 
