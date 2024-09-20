@@ -39,3 +39,15 @@ Relating to Benzécri notation, cTabi is pij/pi and cTabj is pij/pj
 > cTabjdf[indx] <- lapply(cTabjdf[indx], function(x) x*100.0)<br>
 > cTabjdf[indx] <- lapply(cTabjdf[indx], function(x) format(round(x, 1), nsmall = 1))<br>
 
+#### Row names(here: Sector Code) need to be added as a new column to these dataframes before concatenation
+> names <- rownames(cTabdf)<br>
+> cTabr <- cbind(names, cTabdf)<br>
+> cTabir <- cbind(names, cTabidf)<br>
+> cTabwi <- merge(cTabr, cTabir, by="names")<br>
+> cTabjr <- cbind(names, cTabjdf)<br>
+> cTabwij <- merge(cTabwi, cTabjr, by="names")<br>
+
+#### The resulting table is exported to a .csv file
+> write.csv(cTabwij, file = "C:/Projets_En_Cours/AI_MTPL/UCI_Internal_Ratings/R Notes/defaultrates_sector.csv")
+
+
