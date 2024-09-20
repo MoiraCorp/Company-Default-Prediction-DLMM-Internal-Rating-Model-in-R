@@ -20,3 +20,22 @@ In the preceding notations, pi. and pj. are the rows and columns marginal freque
 > cTabj <- prop.table(cTab)<br>
 
 Relating to Benzécri notation, cTabi is pij/pi and cTabj is pij/pj
+
+#### Each of these table() objects need to be converted into dataframes for later concatenation
+> cTabdf <- as.data.frame.matrix(cTab)<br>
+> cTabidf <- as.data.frame.matrix(cTabi)<br>
+> cTabjdf <- as.data.frame.matrix(cTabj)<br>
+
+#### Adding a "total sum" column to each of these marginal tables
+> cTabdf$total <- cTabdf[,1] + cTabdf[,2]<br>
+> cTabidf$total <- cTabidf[,1] + cTabidf[,2]<br>
+> cTabjdf$total <- cTabjdf[,1] + cTabjdf[,2]<br>
+
+#### Multiplying by 100.0 the last 2 tables in order to conform to the DLMM book text and reduce the numeric format to one decimal after decimal point
+> indx <- sapply(cTabidf, is.numeric)<br>
+> cTabidf[indx] <- lapply(cTabidf[indx], function(x) x*100.0)<br>
+> cTabidf[indx] <- lapply(cTabidf[indx], function(x) format(round(x, 1), nsmall = 1))<br>
+> indx <- sapply(cTabjdf, is.numeric)<br>
+> cTabjdf[indx] <- lapply(cTabjdf[indx], function(x) x*100.0)<br>
+> cTabjdf[indx] <- lapply(cTabjdf[indx], function(x) format(round(x, 1), nsmall = 1))<br>
+
