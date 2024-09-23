@@ -11,7 +11,7 @@ This implementation follows step by step the content of Chap. 4:  Developing a s
 > <p><strong>Step 2</strong> - One by one empirical analysis of variables -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/step2)</p>
 > <p><strong>Step 3</strong> - Cross-tabulation 01STATUS versus Industry Sector Code -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/step3)</p>
 > <p><strong>Step 4</strong> - Exploring graphically the probability distribution of a variable  -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/step4)</p>
-> <p><strong>Step 5</strong> - Testing the normality of the probability distribution of a variable  -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/step4)</p>
+> <p><strong>Step 5</strong> - Testing the normality of the probability distribution of a variable </p>
 > <p><strong>Step 6</strong> - One by one good/bad discriminant power of variables Code</p>
 > <p><strong>Step 7</strong> - Empirical monotonicity of ROE relative to good-bad progression</p>
 > <p><strong>Step 8</strong> - Correlation between variable couples</p>
