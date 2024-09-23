@@ -48,7 +48,8 @@ This done in this phase by creating the specific function is_outlier() built usi
 - geom_text(aes(label = outlier), na.rm = TRUE, hjust = -0.3, check_overlap = T) does the labelling of these points
 
 #### Using ggrepel to identify the outliers
-Although the outliers are labelled in the previous display they still are difficult to identify whenthey are closely clustred<br>
+Although the outliers are labelled in the previous display they still are difficult to identify when they are closely clustered<br>
+as they are all plotted on the same side of the axis<br>
 In order to ease this individual identification, the use the ggrepel R package
 > library(ggrepel)<br>
 > library(dplyr)<br>
@@ -68,5 +69,8 @@ In order to ease this individual identification, the use the ggrepel R package
     labs(x = "01STATUS",y = "Netprofit/Equity") + scale_y_continuous(limits=c(-300,300), breaks=seq(-300,300,100), expand = c(0, 0)) +
     geom_text_repel(aes(label = outlier))<br>
 
-
+<img src="Fig_4_10_Page 142_ROE_Box Plot_IDlabels.JPG" alt="drawing" width="80%"/>
+<em>NOTE:</em> The ggrepel package is an extension of dplyr+ggplot2
+- geom_text_repel replaces the geom_text function and enables to create pointers to outliers while avoiding the overlapping of labels.
+Any outlier can thus be identified
 
