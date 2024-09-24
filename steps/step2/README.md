@@ -47,7 +47,7 @@ X12    2 "Good"    1 1221 20.85190 23.25327 12.832 16.66432 17.5955   0 101.529 
 
 ### Compare with corresponding results presented in DLMM Book
 
-<img src="Table_4_6_Page 133_Describe_3Ratio.JPG" alt="drawing" width="100%"/>
+<img src="./assets/Table_4_6_Page 133_Describe_3Ratio.JPG" alt="drawing" width="100%"/>
 <em>NOTE</em> : The "pretty" presentation of the variable statistics was created by collating the 3 .csv tables in one .xls table
 using Edit-Paste Special-Tanspose in OpenOfficeCalc<br>
 Also, correct printing to pdf in "Lanscape" mode was set using the File-Page Preview option<br>
