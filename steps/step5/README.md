@@ -10,7 +10,7 @@ In order to produce this type of display we use the qqplotr R package
 > install.packages("qqplotr")<br>
 > library("qqplotr")<br>
 
-#### producing the Q-Q plot using the ggplot() function
+#### Producing the Q-Q plot using the ggplot() function
 The actual Q-Q plot graphical display is produced using the ggplot() function from the ggplot2 R package
 
 > p <- ggplot(data=wcs2train, mapping = aes(sample=ROE, colour=BADGOOD)) + stat_qq_line () + stat_qq_point() + labs(x = "Normal Quantiles", y = "Observed Interest Expenses/Liabilities(ROE) Quantiles")<br>
