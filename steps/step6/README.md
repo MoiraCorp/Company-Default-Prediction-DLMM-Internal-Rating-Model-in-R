@@ -9,7 +9,7 @@ It follows the section: 4.5.5 Discriminant power (page 145 of the DLMM book)<br>
 > anvROE <- anova(wcs2train.lmROE)<br>
 > write.csv(anvROE, file = "C:/Projets_En_Cours/AI_MTPL/UCI_Internal_Ratings/R Notes/anvROE.csv")<br>
 
-The 3 results are for variables ROE, IEONLAB and V110A arecollated in one table in Table_4_13_ANOVA.xls<br> 
+The results for the 3 variables ROE, IEONLAB and V110A arecollated in one table in Table_4_13_ANOVA.xls<br> 
 in order to match the presentation in the DLMM book on page 150
 
 
