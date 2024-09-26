@@ -33,6 +33,10 @@ In order to do so, we need to perform the following tasks :
 'The Crosstabs procedure includes the Mantel-Haenszel test of trend among its chi-square test statistics. ... <br>
 The MH test for trend will be printed in the "Chi-Square Tests" table and labelled "Linear-by-Linear Association".'<br>
 
+#### Pearson Chi-Square test
+#### Likelihood Ratio test
+#### Linear-by-Linear Association
+
 
 ### Phi and Cramer’s V measures
 
