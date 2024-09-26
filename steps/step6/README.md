@@ -62,6 +62,10 @@ The mantel.test() function performs a Mantel-Haenszel test for linear trend in t
 &nbsp; Mantel Haenszel Chi-Square Test for Two Way Tables<br>
 &nbsp; data:  <br>
 &nbsp; M^2 = 0.1454, df = 1, p-value = 0.703</em><br>
+<em>NOTE</em>: It is worth noting that the result is slightly different from that of the one presented on page 151 of the  DLMM book<br>
+
+The 3 test results are collated in Table_4_15_Page 151_Chi_Square_Tests.xls and presented in Table_4_15_Page 151_Chi_Square_Tests.pdf
+<img src="./assets/chisquare/Table_4_15_Page 151_Chi_Square_Tests.JPG" alt="drawing" width="100%"/>
 
 ### Phi and Cramer’s V measures
 
