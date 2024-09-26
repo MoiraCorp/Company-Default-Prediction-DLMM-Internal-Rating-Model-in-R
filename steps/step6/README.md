@@ -34,6 +34,17 @@ In order to do so, we need to perform the following tasks :
 The MH test for trend will be printed in the "Chi-Square Tests" table and labelled "Linear-by-Linear Association".'<br>
 
 #### Pearson Chi-Square test
+Here we use the standard chisq.test() function from the R package
+> tbl <- table(wcs2train$SECTOR, wcs2train$BADGOOD)<br>
+> chisq.test(tbl)<br>
+
+##### <em>The printed output is:<br>
+&nbsp; Pearson's Chi-squared test<br>
+&nbsp; data:  tbl<br>
+&nbsp; X-squared = 4.2799, df = 18, p-value = 0.9996</em><br>
+
+
+
 #### Likelihood Ratio test
 #### Linear-by-Linear Association
 
