@@ -22,6 +22,17 @@ It is computed from inside the file Table_4_13_ANOVA.xls
 <img src="./assets/anova/Table_4_13_ANOVA.JPG" alt="drawing" width="100%"/>
 
 ### Chi-square (Pearson) test of association between two categorical variables SECTOR-BADGOOD
+Here we are mirroring the SPSS Chi-Square Independence Test -> https://www.spss-tutorials.com/spss-chi-square-independence-test/<br>
+in order to mimic the results illustrated in Table 4.15 - Chi-square test presented in the DLMM book on page 151<br>
+In order to do so, we need to perform the following tasks :
+- Pearson Chi-Square test
+- Likelihodd Ratio test
+- Linear-by-Linear Association <br>
+
+ <em>NOTE:</em> in the IBM's support page for SPSS, it is stated in a technote on the Chi² test:<br>
+'The Crosstabs procedure includes the Mantel-Haenszel test of trend among its chi-square test statistics. ... <br>
+The MH test for trend will be printed in the "Chi-Square Tests" table and labelled "Linear-by-Linear Association".'<br>
+
 
 ### Phi and Cramer’s V measures
 
