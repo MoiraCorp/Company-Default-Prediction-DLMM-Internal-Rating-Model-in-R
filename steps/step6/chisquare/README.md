@@ -42,4 +42,4 @@ The mantel.test() function performs a Mantel-Haenszel test for linear trend in t
 <em>NOTE</em>: It is worth noting that the result is slightly different from that of the one presented on page 151 of the  DLMM book<br>
 
 The 3 test results are collated in Table_4_15_Page 151_Chi_Square_Tests.xls and presented in Table_4_15_Page 151_Chi_Square_Tests.pdf
-<img src="./assets/chisquare/Table_4_15_Page 151_Chi_Square_Tests.JPG" alt="drawing" width="50%"/>
+<img src="./assets/Table_4_15_Page 151_Chi_Square_Tests.JPG" alt="drawing" width="50%"/>
