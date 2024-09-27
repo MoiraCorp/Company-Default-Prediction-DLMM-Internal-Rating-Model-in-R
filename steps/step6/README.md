@@ -7,6 +7,8 @@ This implementation follows step by step the content of Chap. 4, section 4.5.5 :
 ## Method
 
 > <p><strong>ANOVA of variable-BADGOOD assocation</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step6/anova)</p>
+> <p><strong>Chi-square (Pearson) test of association between two categorical variables SECTOR-BADGOOD</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step6/chisquare)</p>
+
 
 ### Chi-square (Pearson) test of association between two categorical variables SECTOR-BADGOOD
 Here we are mirroring the SPSS Chi-Square Independence Test -> https://www.spss-tutorials.com/spss-chi-square-independence-test/<br>
