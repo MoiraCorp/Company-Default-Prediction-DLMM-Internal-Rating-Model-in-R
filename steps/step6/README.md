@@ -14,7 +14,7 @@ This code is repeated for variables IEONLAB and V110A saving the results in tabl
 The results for the 3 variables ROE, IEONLAB and V110A are collated in one table in Table_4_13_ANOVA.xls<br> 
 in order to match the presentation in the DLMM book on page 150<br>
 
-### ETA – Measure of variable-BADGOOD association
+#### ETA – Measure of variable-BADGOOD association
 Eta-squared is the sample proportion of variance explained in a numerical variable by a categorical predictor variable. 
 Eta2 is computed as between-groups sum of squares divided by total sum of squares. Eta is the square root of Eta.
 
