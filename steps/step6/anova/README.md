@@ -15,4 +15,4 @@ Eta-squared is the sample proportion of variance explained in a numerical variab
 Eta2 is computed as between-groups sum of squares divided by total sum of squares. Eta is the square root of Eta.
 
 It is computed from inside the file Table_4_13_ANOVA.xls
-<img src="./assets/anova/Table_4_13_ANOVA.JPG" alt="drawing" width="100%"/>
+<img src="./assets/Table_4_13_ANOVA.JPG" alt="drawing" width="100%"/>
