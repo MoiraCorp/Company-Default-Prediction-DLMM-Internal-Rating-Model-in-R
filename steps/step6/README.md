@@ -2,6 +2,13 @@
 
 It follows the section: 4.5.5 Discriminant power (page 145 of the DLMM book)<br>
 
+## Purpose
+
+## Method
+This implementation follows step by step the content of Chap. 4, section 4.5.5 :  Discriminant power, pp. 145-157
+
+> <p><strong>ANOVA of variable-BADGOOD assocation</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step6/anova)</p>
+
 ### ANOVA of variable-BADGOOD assocation
 
 > wcs2train.lmROE = lm(ROE ~ BADGOOD, data = wcs2train)<br>
