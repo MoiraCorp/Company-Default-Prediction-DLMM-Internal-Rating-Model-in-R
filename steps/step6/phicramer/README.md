@@ -10,12 +10,11 @@ Here we use the Phi() and CramerV() functions from the R DescTools package -> ht
 ### Phi measure of association
 > Phi(tbl)<br>
 > ##### <em>The printed output is:
-[1] 0.05802905
-### Cramer measure of assoction
+[1] 0.05802905</em>
+### Cramer measure of association
 > CramerV(tbl)
-> > Phi(tbl)<br>
 > ##### <em>The printed output is:
-[1] 0.05802905<br>
+[1] 0.05802905</em><br>
 
 The 2 results are collated in Table_4_16_Page 152_Phi_CramerV.xls and presented in Table_4_16_Page 152_Phi_CramerV.pdf
 <img src="./assets/Table_4_16_Page 152_Phi_CramerV.JPG" alt="drawing" width="50%"/>
