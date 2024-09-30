@@ -1,0 +1,6 @@
+Table 4.15 – ROC test results for 3 typical ratios					
+		Area under curve	Std. error	Asymptotic 95% Confidence Interval	4
+Variables	Variable-Groups			Lower Bound	Upper Bound
+NetProfit/Equity	ROE-BADGOOD	0.593	0.043	0.508	0.677
+Interest Expenses/Liabilities	IEONLIAB-BADGOOD	0.608	0.036	0.538	0.679
+Inventories/Total Assets	V110A-BADGOOD	0.598	0.038	0.522	0.673
