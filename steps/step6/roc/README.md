@@ -49,3 +49,6 @@ The resulting curves are presented in Fig_4_15_Page 155-156_ROC Curves.pdf
 <img src="./assets/Fig_4_15_Page 155-156_ROC Curves.JPG" alt="drawing" width="60%"/>
 
 ### Computing ROC test on the whole set of variables
+We are build a similar ROS results table (ex; ROOCS3) for all the whole set of ratio variables from ROE to ROETR<br>
+The position of these starting and ending ratios inside the wcs2train dataframe are respectively :<br>
+ROE at wcs2train[86] and ROETR at wcs2train[119]<br>
