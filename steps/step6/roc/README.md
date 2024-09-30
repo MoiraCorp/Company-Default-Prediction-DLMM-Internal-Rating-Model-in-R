@@ -52,3 +52,27 @@ The resulting curves are presented in Fig_4_15_Page 155-156_ROC Curves.pdf
 We are build a similar ROS results table (ex; ROOCS3) for all the whole set of ratio variables from ROE to ROETR<br>
 The position of these starting and ending ratios inside the wcs2train dataframe are respectively :<br>
 ROE at wcs2train[86] and ROETR at wcs2train[119]<br>
+
+We are scanning all the columns of wcs2train table from index 86 to index 119
+and compute their RCS test results which are placed in table ROCSF which is saved in the file ROCSF.csv
+
+> varcount = 0<br>
+> for(i in 86:119){<br>
+	rocr = roc(wcs2train$BADGOOD, wcs2train[,i])<br>
+	aucr <- auc(rocr)<br>
+	cir <- ci(rocr)<br>
+	vrr <- var(rocr)^0.5<br>
+	rocr_result <- c(aucr[1], vrr, cir[1], cir[3])<br>
+	varcount = varcount + 1<br>
+	if (varcount == 1){<br>
+		ROCSR <- data.frame(rocr_result)<br>
+		names(ROCSR)[varcount] <- colnames(wcs2train)[i]<br>
+	} else {<br>
+		ROCSR <- cbind(ROCSR, data.frame(rocr_result))<br>
+		names(ROCSR)[varcount] <- colnames(wcs2train)[i]<br>
+	}<br>
+}<br>
+> rownames(ROCSR) <- c("Area", "Std. Error", "Lower Bound", "Upper Bound")
+> # Transposing the table
+> ROCSF <- t(ROCSR)<br>
+> write.csv(ROCSF, file = "C:/Projets_En_Cours/AI_MTPL/UCI_Internal_Ratings/R Notes/ROCSF.csv")<br>
