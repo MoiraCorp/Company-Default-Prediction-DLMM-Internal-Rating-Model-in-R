@@ -40,4 +40,7 @@ are collated in table ROCS3.csv and presented in Fig_4_15_Page 155-156_ROC Tests
 Here we use the ggroc() function from the pROC package -> https://cran.r-project.org/web/packages/pROC/index.html<br>
 > ggroc(list(ROE=roc1, IEONLAB=roc2, V110A=roc3), size=1) + ggtitle("ROC for 3 typical ratios versus BADGOOD assignment") + theme(plot.title = element_text(hjust = 0.5))<br>
 
+The resulting curves are presented in Fig_4_15_Page 155-156_ROC Curves.pdf
+<img src="./assets/Fig_4_15_Page 155-156_ROC Curves.JPG" alt="drawing" width="60%"/>
+
 ### Computing ROC test on the whole set of variables
