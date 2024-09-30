@@ -73,6 +73,8 @@ and compute their RCS test results which are placed in table ROCSF which is save
 	}<br>
 }<br>
 > rownames(ROCSR) <- c("Area", "Std. Error", "Lower Bound", "Upper Bound")
-> # Transposing the table
+> #### Transposing the table
 > ROCSF <- t(ROCSR)<br>
 > write.csv(ROCSF, file = "C:/Projets_En_Cours/AI_MTPL/UCI_Internal_Ratings/R Notes/ROCSF.csv")<br>
+
+The table of ROC test results for all ratios is presented in  : ROC_All ratios_v_BADGOOD_Page 157.pdf
