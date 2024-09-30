@@ -33,6 +33,11 @@ The results obtained for the 3 variables: ROE,IEONLIAB and V110A, namely R table
 > roc2 = roc(wcs2train$BADGOOD, wcs2train$IEONLIAB)<br>
 > roc3 = roc(wcs2train$BADGOOD, wcs2train$V110A)<br>
 
+followed by:
+> roc1_result <- c(auc1[1], vr1, ci1[1], ci1[3])<br>
+> roc2_result <- c(auc2[1], vr2, ci2[1], ci2[3])<br>
+> roc3_result <- c(auc3[1], vr3, ci3[1], ci3[3])<br>
+
 are collated in table ROCS3.csv and presented in Fig_4_15_Page 155-156_ROC Tests.pdf
 <img src="./assets/Fig_4_15_Page 155-156_ROC Tests.JPG" alt="drawing" width="80%"/>
 
