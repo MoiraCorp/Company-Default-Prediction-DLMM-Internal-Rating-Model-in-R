@@ -78,3 +78,34 @@ and compute their RCS test results which are placed in table ROCSF which is save
 > write.csv(ROCSF, file = "C:/Projets_En_Cours/AI_MTPL/UCI_Internal_Ratings/R Notes/ROCSF.csv")<br>
 
 The table of ROC test results for all ratios is presented in  : ROC_All ratios_v_BADGOOD_Page 157.pdf
+<img src="./assets/ROC_All ratios_v_BADGOOD_Page 157.JPG" alt="drawing" width="100%"/>
+
+Following the recommandations of the author, the ratios with best separation (AuROC >= 0.62) are:<br>
+
+- DEBTEQUTR	Interest-bearing Financial Debt/Equity	
+- EBITDAIE	EBITDA/Interest Expenses
+- ASSETSTU	Sales/Total Assets
+- V95A		Inventory/Daily Sales
+- IEONEBIT	Interest Expenses/EBITDA [%]
+- COMMERCI	(Trade Receivables + Inventory – Trade Payables)/Daily Sales
+- TRADEPA.	Trade Payables/Total Liabilities [%]
+- ROAMINUS	ROA –  Interest Expenses/Total Liabilities<br>
+
+<em>NOTE  :</em> None of the 3 variables studied so far  : ROE, IEONLIAB and V110A are is this «  best  » pack  !<br>
+Also, DEBTEQUTR is a combined variable added “on purpose (ad-hoc ?) by the author at the end of the table
+
+### Contrasting the ROC curves for the best and the worst seoaration index
+We are also presenting on the same graph, the ROC curves for  :
+- the best BAD-GOOD separator ratio, DEBTEQUTR with an AuROC = 0.667
+- the worst BAD-GOOD separator ratio, EXTRIC with an AuROC = 0.465, which is below the 50%-50% separation (AuROC = 0.5)<br>
+
+> roc1 = roc(wcs2train$BADGOOD, wcs2train$DEBTEQUTR)<br>
+> roc2 = roc(wcs2train$BADGOOD, wcs2train$EXTRIC)<br>
+> ggroc(list(DEBTEQUTR=roc1, EXTRIC=roc2), size=1) + ggtitle("ROC for best-worse ratios versus BADGOOD assignment") + theme(plot.title = element_text(hjust = 0.5)) +  geom_abline(intercept=1, slope=1)<br>
+
+<em>NOTE :</em> The geom_abline() function from th ggplot2 package traces the 0.5 AuROC curve which represents the H0 (zero) hypothetis or 50%-50% separation
+
+The illustration is saved in: ROC_Best-Worst ratios_v_BADGOOD_Page 157.pdf
+
+
+
