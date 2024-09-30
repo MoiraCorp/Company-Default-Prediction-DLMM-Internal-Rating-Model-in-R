@@ -27,6 +27,9 @@ Area under the curve: 0.5927</em>
 > vr1 <- var(roc1)^0.5
 > > ##### <em>The printed output is:
 [1] 0.0429671</em><br>
-> 
+
+The results obtained for the 3 variables: ROE,IEONLIAB and V110A, namely R tales: roc1,roc2 and roc3<br>
+are collated in table ROCS3.csv and presented in Fig_4_15_Page 155-156_ROC Tests.pdf
+
 ### ROC curves graphical representation
 ### Computing ROC test on the whole set of variables
