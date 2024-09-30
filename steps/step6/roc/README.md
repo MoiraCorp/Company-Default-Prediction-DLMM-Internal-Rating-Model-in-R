@@ -106,6 +106,7 @@ We are also presenting on the same graph, the ROC curves for  :
 <em>NOTE :</em> The geom_abline() function from th ggplot2 package traces the 0.5 AuROC curve which represents the H0 (zero) hypothetis or 50%-50% separation
 
 The illustration is saved in: ROC_Best-Worst ratios_v_BADGOOD_Page 157.pdf
+<img src="./assets/ROC_Best-Worst ratios_v_BADGOOD_Page 157.JPG" alt="drawing" width="60%"/>
 
 
 
