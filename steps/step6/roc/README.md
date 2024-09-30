@@ -30,6 +30,7 @@ Area under the curve: 0.5927</em>
 
 The results obtained for the 3 variables: ROE,IEONLIAB and V110A, namely R tales: roc1,roc2 and roc3<br>
 are collated in table ROCS3.csv and presented in Fig_4_15_Page 155-156_ROC Tests.pdf
+<img src="./assets/Fig_4_15_Page 155-156_ROC Tests.JPG" alt="drawing" width="80%"/>
 
 ### ROC curves graphical representation
 ### Computing ROC test on the whole set of variables
