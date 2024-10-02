@@ -39,7 +39,6 @@ We are binning the ROE variable in 9 (10 boundaries) equally populated bins usin
 &nbsp; -5500.000000   -47.512000    -5.779667     1.370000     5.747778    13.950778    25.828667    48.020222   100.000000 17930.000000</em><br>
 
 #### Encoding ROE as a factor
-
 > bins_cut = 9<br>
 > for(j in 1:bins_cut) {<br>
 	if(j == 1){
@@ -61,3 +60,11 @@ We are binning the ROE variable in 9 (10 boundaries) equally populated bins usin
 &nbsp;   ROE_7     3    138<br>
 &nbsp;   ROE_8     2    141<br>
 &nbsp;   ROE_9     7    133<br>
+
+#### Graphing the binned ROE
+> plot(ROE9VB[,1], main = "Fig 4.17 - Default rates for ROE intervals", xlab="ROE(Binned)", ylab="Mean Bad/ROE interval")<br>
+> lines(ROE9VB[,1], lwd=2)<br>
+
+The resulting graph is presented in  : Fig_4_17_Page 158_ROEBin_Bad.pdf
+<img src="./assets/Fig_4_17_Page 158_ROEBin_Bad.JPG" alt="drawing" width="50%"/>
+
