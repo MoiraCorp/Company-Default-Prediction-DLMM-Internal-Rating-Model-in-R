@@ -1,1 +1,1 @@
-Files for step7-Monotonicity
+## Developing a var/BADGOOD monotonicity detection scheme
