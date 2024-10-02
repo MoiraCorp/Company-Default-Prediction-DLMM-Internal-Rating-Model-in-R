@@ -1,1 +1,1 @@
-Files for ste7-Signs
+## Comparison between BADGOOD distribution and the sign of ROE numerator and denominator
