@@ -8,7 +8,7 @@ if one use different test result values as a threshold.
 This implementation follows step by step the content of Chap. 4, section 4.5.5 :  Discriminant power, pp. 152<br>
 
 ### ROC numerical summaries
-Here we use the auc(), ci() and var() functions from the pROC package -> https://cran.r-project.org/web/packages/pROC/index.html<br>
+Here we use the auc(), ci() and var() functions from the R pROC package -> https://cran.r-project.org/web/packages/pROC/index.html<br>
 > install.packages("pROC")<br>
 > library(pROC)<br>
 > roc1 = roc(wcs2train$BADGOOD, wcs2train$ROE)<br>
