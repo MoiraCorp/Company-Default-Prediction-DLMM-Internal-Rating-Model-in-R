@@ -60,7 +60,7 @@ The available statistics gerneratd by the describe function are:
                0:  16    0:   6</em>
  #### Building a 3-way count table mimicking that of Table 4.18, page 159
 
-> EQUNPRvSTATUS <- xtabs(~ EQUITYsign + NPROFsign + STATUS, ROEsign)
+> EQUNPRvSTATUS <- xtabs(~ EQUITYsign + NPROFsign + STATUS, ROEsign)<br>
 > EQUNPRvSTATUS, , STATUS = "Bad"
 ##### <em>The printed output is:
 NPROFsign<br>
@@ -69,7 +69,7 @@ EQUITYsign   \-   \+   0<br>
          \+  14  24   0<br>
          0   0   0   0</em>
 
-> EQUNPRvSTATUS <- xtabs(~ EQUITYsign + NPROFsign + STATUS, ROEsign)
+> EQUNPRvSTATUS <- xtabs(~ EQUITYsign + NPROFsign + STATUS, ROEsign)<br>
 > EQUNPRvSTATUS, , STATUS = "Good"
 ##### <em>The printed output is:
 NPROFsign<br>
