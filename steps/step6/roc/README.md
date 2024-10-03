@@ -15,17 +15,17 @@ Here we use the auc(), ci() and var() functions from the R pROC package -> https
 
 #### Printing the AuROC (Area under ROC curve)
 > auc1 <- auc(roc1)
-> ##### <em>The printed output is:
+##### <em>The printed output is:
 Area under the curve: 0.5927</em>
 
 #### Printing the ROC asymptotic intervals
 > ci1 <- ci(roc1)
-> ##### <em>The printed output is:
+##### <em>The printed output is:
 95% CI: 0.5085-0.6769 (DeLong)</em>
 
 #### Getting the Std. Error under a non parametric assumption
 > vr1 <- var(roc1)^0.5
-> ##### <em>The printed output is:
+##### <em>The printed output is:
 [1] 0.0429671</em><br>
 
 The results obtained for the 3 variables: ROE,IEONLIAB and V110A, namely R tables: roc1,roc2 and roc3<br>
