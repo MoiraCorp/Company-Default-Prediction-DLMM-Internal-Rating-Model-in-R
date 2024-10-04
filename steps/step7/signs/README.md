@@ -26,57 +26,56 @@ The available statistics gerneratd by the describe function are:
  - se: 	r.m.s. error
 
  ##### <em>For  NPROF-85 and EQUITY-29 we get the following printed results:
-	<em>var		min		max		range<br>
-	NPROF-85	-5379		5327		10706<br>
-	EQUITY-29	-3685		152567	156252<br></em>
+ 	var		min		max		range
+	NPROF-85	-5379		5327		10706
+	EQUITY-29	-3685		152567		156252
+ </em>
 
 > NPROFsign <- cut(wcs2train$NPROF, breaks=c(-Inf, -1, 0, Inf), labels=c("-", "0", "+"), include.lowest=FALSE)
 > summary(NPROFsign)
 ##### <em>The printed output is:
-   \-    0    \+<br>
- 230   16 1025</em>
+	-	0	+
+ 	230	16	1025
+  </em>
 
 > EQUITYsign <- cut(wcs2train$EQUITY, breaks=c(-Inf, -1, 0, Inf), labels=c("-", "0", "+"), include.lowest=FALSE)
 > summary(EQUITYsign)
 ##### <em>The printed output is:               	
-   \-    0    \+<br>
- 200    6 1065</em>
+ 	- 	0 	+
+	200	6 	1065
+ </em>
 
 > STATUS <- wcs2train$BADGOOD
 > ROEsign <- cbind(STATUS=levels(STATUS)[STATUS], NPROFsign=levels(NPROFsign)[NPROFsign], EQUITYsign=levels(EQUITYsign)[EQUITYsign])
 > summary(ROEsign)
 ##### <em>The printed output is:
- STATUS     NPROFsign EQUITYsign<br>
- "Bad" :  51   \-: 230    \-: 200   
- "Good":1220   \+:1025    \+:1065   
-               0:  16    0:   6</em>
+	STATUS		NPROFsign	EQUITYsign
+	"Bad" :  51 	-: 230		-: 200   
+	"Good":1220	+:1025		+:1065   
+         		0:  16    	0:   6
+</em>
 
-> ROEsign <- cbind(STATUS=levels(STATUS)[STATUS], NPROFsign=levels(NPROFsign)[NPROFsign], EQUITYsign=levels(EQUITYsign)[EQUITYsign])
-> summary(ROEsign)
-##### <em>The printed output is:
- STATUS     NPROFsign EQUITYsign<br>
- "Bad" :  51   \-: 230    \-: 200    
- "Good":1220   +:1025    +:1065    
-               0:  16    0:   6</em>
  #### Building a 3-way count table mimicking that of Table 4.18, page 159
 
 > EQUNPRvSTATUS <- xtabs(~ EQUITYsign + NPROFsign + STATUS, ROEsign)<br>
 > EQUNPRvSTATUS, , STATUS = "Bad"
 ##### <em>The printed output is:
-NPROFsign<br>
-EQUITYsign   \-   \+   0<br>
-         \-   4   9   0<br>
-         \+  14  24   0<br>
-         0   0   0   0</em>
+			NPROFsign
+	EQUITYsign	-	+	0
+ 		-	4	9	0
+		+	14	24	0
+		0	0	0	0
+</em>
 
 > EQUNPRvSTATUS <- xtabs(~ EQUITYsign + NPROFsign + STATUS, ROEsign)<br>
 > EQUNPRvSTATUS, , STATUS = "Good"
 ##### <em>The printed output is:
-NPROFsign<br>
-EQUITYsign   \-   \+   0<br>
-         \-  47 138   2<br>
-         \+ 165 848  14<br>
-         0   0   6   0
+			NPROFsign
+	EQUITYsign	-	+	0
+		-	47	138	2
+		+	165	848	14
+		0	0	6	0
+</em>
          
  
 
