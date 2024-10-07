@@ -59,6 +59,8 @@ to the exception of V95A-96, V110A-107 for the bin.var() function does not behav
 - <strong>EQUITYON-108</strong> -> EQUITYonPERMANENT_CAPITAL	= Ratio Equity/Permanent Capital [%]
 - <strong>ROAMINUS-115</strong> -> ROAminusIEonTL	= ROA minus Ratio Interest Expenses/Total Liabilities
 
-The results are illustrated in: Fig_4_17b_Page 160_Ratios_BadvGood.pdf
-Variables plotted in green show a “good” monotonicity, those plotted in blue
+The results are illustrated in: Fig_4_17b_Page 160_Ratios_BadvGood.pdf<br><br>
+<img src="./assets/Fig_4_17b_Page 160_Ratios_BadvGood.JPG" alt="drawing" width="80%"/>
+
+<em>NOTE :</em> Variables plotted in green show a “good” monotonicity, those plotted in blue are “fair” and those plotted in red are “poor” and among them is the ROE variable studied before.
 
