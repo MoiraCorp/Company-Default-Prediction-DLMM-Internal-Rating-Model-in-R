@@ -14,7 +14,7 @@ This implementation follows step by step the content of Chap. 4:  Developing a s
 > <p><strong>Step 5</strong> - Testing the normality of the probability distribution of a variable  -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step5) </p>
 > <p><strong>Step 6</strong> - Evaluating the good/bad discriminant power of a variable  -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step6) </p>
 > <p><strong>Step 7</strong> - Empirical monotonicity of ROE relative to good-bad progression  -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step7) </p>
-> <p><strong>Step 8</strong> - Correlation between variable couples</p>
+> <p><strong>Step 8</strong> - Correlation between variable couples  -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step8) </p>
 > <p><strong>Step 9</strong> - Analysis of outliers</p>
 > <p><strong>Step 10</strong> - Data recoding</p>
 > <p><strong>Step 11</strong> - Synoptic table of variable properties</p>
