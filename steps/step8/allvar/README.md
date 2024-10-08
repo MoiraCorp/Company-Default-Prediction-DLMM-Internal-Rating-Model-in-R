@@ -20,7 +20,19 @@ We are following the examples of: -> http://www.sthda.com/english/wiki/visualize
          diag=FALSE<br>
          )<br>
 
->em>NOTE:</em> Hexa ramp colors have been tuned using tool in Google Search.
+<em>NOTE:</em> Hexa ramp colors have been tuned using tool in Google Search.
 The display blanks out the color of cells below significance level of 0.01 (1%), as indicated on page 160, last line.<br>
 
 The graphics representation of the Pearson correlation between all Ratio Variables is presented in: Table_4_19b_Page 162_Ratios_Correlation.pdf
+<img src="./assets/Table_4_19b_Page 162_Ratios_Correlation.JPG" alt="drawing" width="60%"/>
+
+From this diagram, we detremine the following groups of correlated variables (over 70%).<br> 
+<em>NOTE:</em> The groups are identical to those proposed in the author's text<br>
+
+<strong>GR1:</strong> ROE, ROETR (Negative 73% with ROE), DEBTEQUTR (Negative 69% with ROETR and 51% with ROE)<br>
+| Column in R table  | Code in text | Description |
+| ------------- | ------------- | ------------ |
+| ROE-86		| ROE			| Ratio Net Profit/Equity |
+| DEBTEQUTR-118	| DebtEquityTr	         | Ratio Interest-bearing Financial Debt/Equity |
+| ROETR-119	| ROETr			| Ratio Net Profit/Total Stockholder's Equity |
+
