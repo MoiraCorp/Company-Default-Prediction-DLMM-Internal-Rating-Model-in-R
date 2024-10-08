@@ -32,9 +32,9 @@ From this diagram, we detremine the following groups of correlated variables (ov
 <strong>GR1: ROE, ROETR (Negative 73% with ROE), DEBTEQUTR (Negative 69% with ROETR and 51% with ROE)</strong><br>
 | Column in R table  | Code in text | Description |
 | ------------- | ------------- | ------------ |
-| ROE-86		| ROE			| Ratio Net Profit/Equity |
-| DEBTEQUTR-118	| DebtEquityTr	         | Ratio Interest-bearing Financial Debt/Equity |
-| ROETR-119	| ROETr			| Ratio Net Profit/Total Stockholder's Equity |
+| ROE-86		| ROE			| Ratio Net Profit/Equity 
+| DEBTEQUTR-118	| DebtEquityTr	         | Ratio Interest-bearing Financial Debt/Equity 
+| ROETR-119	| ROETr			| Ratio Net Profit/Total Stockholder's Equity 
 
 <strong>GR2: EBITDAON, V89A (88% with EBITDAON), ROS (99% with EBITDAON)</strong><br>
 | Column in R table  | Code in text | Description |
@@ -55,15 +55,15 @@ From this diagram, we detremine the following groups of correlated variables (ov
 <strong>GR4: V94A, V95A, COMMERCI (98% with V95A)</strong><br>
 | Column in R table  | Code in text | Description |
 | ------------- | ------------- | ------------ |
-V94A-95		RECEIVABLES_PERIOD	Ratio Trade Receivables/Daily Sales
-V95A-96		INVENTORY_PERIOD		Ratio Inventory/Daily Sales
-COMMERCI-98		COMMERCIAL_WC_PERIOD	Ratio (Trade Receivables + Inventory – Trade Payables)/Daily Sales
+| V94A-95	| RECEIVABLES_PERIOD	| Ratio Trade Receivables/Daily Sales
+| V95A-96	| INVENTORY_PERIOD	| Ratio Inventory/Daily Sales
+| COMMERCI-98	| COMMERCIAL_WC_PERIOD	| Ratio (Trade Receivables + Inventory – Trade Payables)/Daily Sales
 
 <strong>GR5: IEONEBIT, NIEONEBI (99%)</strong><br>
 | Column in R table  | Code in text | Description |
 | ------------- | ------------- | ------------ |
-IEONEBIT-99		IEonEBITDA		Ratio Interest Expenses/EBITDA [%]
-NIEONEBI-100	NIEonEBITDA		Ratio Net Interest Expenses/EBITDA [%]
+| IEONEBIT-99	| IEonEBITDA	| Ratio Interest Expenses/EBITDA [%]
+| NIEONEBI-100	| NIEonEBITDA	| Ratio Net Interest Expenses/EBITDA [%]
 
 
 
