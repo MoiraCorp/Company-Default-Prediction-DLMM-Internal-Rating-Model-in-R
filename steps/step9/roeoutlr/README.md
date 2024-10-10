@@ -1,6 +1,6 @@
 ## Computing the number of outliers for the ration ROE (page 163)
 
-Following the authors's approcah, we implement the FindOutliers() function in order to to detect extreme outliers
+Following the authors's approach, we implement the FindOutliers() function in order to to detect extreme outliers
 
 > FindOutliers <- function(data) {<br>
 > lowerq = quantile(data, na.rm=TRUE)[2]<br>
