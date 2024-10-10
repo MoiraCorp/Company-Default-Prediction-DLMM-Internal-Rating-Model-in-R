@@ -13,7 +13,7 @@ Following the authors's approcah, we implement the FindOutliers() function in or
 > }
 
 More more information on the detection of outliers isn R, see: <br>
-"Outliers detection in R" -> Outliers detection in R<br>
+"Outliers detection in R" -> https://statsandr.com/blog/outliers-detection-in-r/<br>
 
 ### The FindOutliers() function is used to evaluate the percentage of extereme outliers for the ROE variable
 
@@ -22,7 +22,9 @@ More more information on the detection of outliers isn R, see: <br>
 > outlprc = length(extreme.outl)/length(wcs2train$ROE)<br>
 > outlprc
  ##### <em>The printed output is:
- &nbsp;  [1] 0.1210692
+ &nbsp;  [1] 0.1210692</em><br>
+
+<em>NOTE :</em> This compares closely with the percentage of 12% indicated by the authors in page 164
 
 
 
