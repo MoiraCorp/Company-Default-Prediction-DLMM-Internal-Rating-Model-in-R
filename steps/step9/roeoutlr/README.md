@@ -12,7 +12,7 @@ Following the authors's approach, we implement the FindOutliers() function in or
 > result <- which(data > extreme.threshold.upper | data < extreme.threshold.lower)<br>
 > }
 
-More more information on the detection of outliers isn R, see: <br>
+For more information on the detection of outliers in R, see for example: <br>
 "Outliers detection in R" -> https://statsandr.com/blog/outliers-detection-in-r/<br>
 
 ### The FindOutliers() function is used to evaluate the percentage of extereme outliers for the ROE variable
