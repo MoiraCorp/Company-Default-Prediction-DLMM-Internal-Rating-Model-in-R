@@ -6,6 +6,6 @@ This implementation follows step by step the content of Chap. 4, section 4.5.8 :
 
 ## Method
 
-> <p><strong>Computing the number of outliers for the ration ROE</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step9/roeoutlr)</p>
+> <p><strong>Computing the number of outliers for the ration ROE (page 163) </strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step9/roeoutlr)</p>
 > <p><strong>Computing outliers percentage for all the ratios</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step9/alloutlr)</p>
 > <p><strong>Masking outlier's values using the NA R notation</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step9/naoutlr)</p>
