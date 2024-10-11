@@ -21,6 +21,7 @@ The percentage of outliers is then computed for all the Raio variables
 | ----- | ---------- | ----- | -----------| ----- | ---------- | ----- | -----------|
 | EXTRIC | 0.24 | SALESONV | 0.13 | ROE | 0.12 | INVENTOR | 0.1 |
 </em>
+<em>NOTE :</em> The results show that: ROE, INVENTOR, EXTRIC and SALESONV do have “outliers” >= 10%
 
  ##### <em>Lower outliers percentage:
 | Ratio | Percentage | Ratio | Percentage | Ratio | Percentage | Ratio | Percentage |
@@ -33,6 +34,7 @@ The percentage of outliers is then computed for all the Raio variables
 | EBITDAON | 0.03 | QUICKRA | 0.02 | TAXESONG | 0.02 | ASSETSTU | 0.01 |
 | V94A | 0.01 |    |    |    |    |    |    |
 </em>
+<em>NOTE :</em> It worth pointing out that a few NA (Not available) values are present, principaly in the TAXESONG ratio
 
 
  ##### <em>Anomalous outliers percentage:
@@ -41,7 +43,9 @@ The percentage of outliers is then computed for all the Raio variables
 | IEONLIAB | 0 | INTANGIB | 0 | TRADERE. | 0 | V110A | 0 |
 | TRADEPA. | 0 |    |    |    |    |    |    |
 </em>
-
+<em>NOTE:</em> The results show anomalies in the computation of the quantiles for: IEONLIAB, INTANGIB, TRADERE., V110A and TRADEPA.
+- For IEONLIAB it is probably due to the presence of one extreme outlier (value 107.47) for a population ranging 0-23t
+- For all the other ratios the result is harder to explain
 
 
 
