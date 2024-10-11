@@ -43,9 +43,10 @@ The percentage of outliers is then computed for all the Ratio variables
 | IEONLIAB | 0 | INTANGIB | 0 | TRADERE. | 0 | V110A | 0 |
 | TRADEPA. | 0 |    |    |    |    |    |    |
 </em>
-<em>NOTE :</em> The results show anomalies in the computation of the quantiles for: IEONLIAB, INTANGIB, TRADERE., V110A and TRADEPA.
-- For IEONLIAB it is probably due to the presence of one extreme outlier (value 107.47) for a population ranging 0-23t
-- For all the other ratios the result is harder to explain
+<em>NOTE :</em> The results show anomalies in the computation of the quantiles for IEONLIAB, INTANGIB, TRADERE., V110A and TRADEPA:
+
+- for IEONLIAB it is probably due to the presence of one extreme outlier (value 107.47) for a population ranging 0-23
+- for all the other ratios the result is harder to explain
 
 
 
