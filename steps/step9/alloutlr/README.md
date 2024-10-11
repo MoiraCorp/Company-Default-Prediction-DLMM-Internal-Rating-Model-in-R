@@ -6,7 +6,7 @@ We start by sub-setting the ratios from the W_CS_1_AnalysisSampleDataSet_2B.xls 
 > wcs2train.ratios <- wcs2train[ratiovars]<r>
 > sapply(wcs2train.ratios, class)<br>
 
-The percentage of outliers is then computed for all the Raio variables
+The percentage of outliers is then computed for all the Ratio variables
 
 > for(i in 1:length(wcs2train.ratios)){<br>
 > \# use the function to identify extreme outliers<br>
