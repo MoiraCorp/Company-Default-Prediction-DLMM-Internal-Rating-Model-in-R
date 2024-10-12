@@ -69,7 +69,40 @@ The graphics representation of the Pearson correlation between all Na masqued Ra
 <em>NOTE :</em> When comparing with the same diagram obtained in step 8 -> https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step8/allvar<br>
 it appears that, though groups of correlated variables do appear again in the new display, there are some remarquable differences
 
-### Updating groups of variables with outlier values removed
+### Updating groups of corralated variables with outlier values removed
+
+<strong>GR1:</strong> <em> this ROE, ROETR, DEBTEQUTR group does not appear any more</sem><br>
+
+<strong>GR2: EBITDAON, V89A (97% with EBITDAON), ROS (92% with EBITDAON)</strong><br>
+| Column in R table  | Code in text | Description |
+| ------------- | ------------- | ------------ |
+| EBITDAON-87	| EBITDAonSALES	| Ratio EBITDA/Sales [%]
+| V89A-90	| EBITDAonVP	| Ratio EBITDA/Value of Production
+| ROS-91		| ROS	         | Ratio EBIT/Sales [%]
+
+<strong>GR3: ROI, ROA (83% with ROI) with no correlation with ASSETSU or IEONLIAB </strong><br>
+| Column in R table  | Code in text | Description |
+| ------------- | ------------- | ------------ |
+| ROI-88		| ROI		| Ratio EBIT/Operating Assets [%]
+| ROA-89		| ROA		| Ratio Current Income/Total Assets [%]
+
+<strong>GR4A: V94A, TRADERE. (70% with V94A) with no correlation with V95A or COMMERCI</strong><br>
+| Column in R table  | Code in text | Description |
+| ------------- | ------------- | ------------ |
+| V94A-95	| RECEIVABLES_PERIOD	| Ratio Trade Receivables/Daily Sales
+| TRADERE-106_	| TRADE_RECEIVABLESonTA	| Ratio Trade Receivables/Total Assets [%]
+
+<strong>GR4B: V95A, V110A (75% with V95A) with no correlation with V4A or COMMERCI</strong><br>
+| Column in R table  | Code in text | Description |
+| ------------- | ------------- | ------------ |
+| V94A-95	| RECEIVABLES_PERIOD	| Ratio Trade Receivables/Daily Sales
+| V110A-107	| INVENTORIESonTA	| Ratio Inventories/Total Assets [%]
+
+<strong>GR5: IEONEBIT, NIEONEBI (95%)</strong><br>
+| Column in R table  | Code in text | Description |
+| ------------- | ------------- | ------------ |
+| IEONEBIT-99	| IEonEBITDA	| Ratio Interest Expenses/EBITDA [%]
+| NIEONEBI-100	| NIEonEBITDA	| Ratio Net Interest Expenses/EBITDA [%]
 
 
 
