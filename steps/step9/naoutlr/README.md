@@ -71,7 +71,7 @@ it appears that, though groups of correlated variables do appear again in the ne
 
 ### Updating groups of corralated variables with outlier values removed
 
-<strong>GR1:</strong> <em> this ROE, ROETR, DEBTEQUTR group does not appear any more</sem><br>
+<em>GR1: this ROE, ROETR, DEBTEQUTR group does not appear any more</sem><br>
 
 <strong>GR2: EBITDAON, V89A (97% with EBITDAON), ROS (92% with EBITDAON)</strong><br>
 | Column in R table  | Code in text | Description |
@@ -80,19 +80,19 @@ it appears that, though groups of correlated variables do appear again in the ne
 | V89A-90	| EBITDAonVP	| Ratio EBITDA/Value of Production
 | ROS-91		| ROS	         | Ratio EBIT/Sales [%]
 
-<strong>GR3: ROI, ROA (83% with ROI) with no correlation with ASSETSU or IEONLIAB </strong><br>
+<strong>GR3: ROI, ROA (83% with ROI)</strong> <em>with no correlation with ASSETSU or IEONLIAB</em/ <br>
 | Column in R table  | Code in text | Description |
 | ------------- | ------------- | ------------ |
 | ROI-88		| ROI		| Ratio EBIT/Operating Assets [%]
 | ROA-89		| ROA		| Ratio Current Income/Total Assets [%]
 
-<strong>GR4A: V94A, TRADERE. (70% with V94A) with no correlation with V95A or COMMERCI</strong><br>
+<strong>GR4A: V94A, TRADERE. (70% with V94A)</strong><em> with no correlation with V95A or COMMERCI</em><br>
 | Column in R table  | Code in text | Description |
 | ------------- | ------------- | ------------ |
 | V94A-95	| RECEIVABLES_PERIOD	| Ratio Trade Receivables/Daily Sales
 | TRADERE-106_	| TRADE_RECEIVABLESonTA	| Ratio Trade Receivables/Total Assets [%]
 
-<strong>GR4B: V95A, V110A (75% with V95A) with no correlation with V4A or COMMERCI</strong><br>
+<strong>GR4B: V95A, V110A (75% with V95A)</strong> <em>with no correlation with V4A or COMMERCI</em><br>
 | Column in R table  | Code in text | Description |
 | ------------- | ------------- | ------------ |
 | V94A-95	| RECEIVABLES_PERIOD	| Ratio Trade Receivables/Daily Sales
