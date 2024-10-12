@@ -66,4 +66,10 @@ In order to produce a graphics representation of the Pearson correlation between
 The graphics representation of the Pearson correlation between all Na masqued Ratio Variables is presented in Table_4_21c_Page 164_RatioswithNA_Correlation.pdf<br>
 <img src="./assets/Table_4_21c_Page 164_RatioswithNA_Correlation.JPG" alt="drawing" width="60%"/><br>
 
+<em>NOTE :</em> When comparing with the same diagram obtained in step 8 -> https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step8/allvar<br>
+it appears that, though groups of correlated variables do appear again in the new display, there are some remarquable differences
+
+### Updating groups of variables with outlier values removed
+
+
 
