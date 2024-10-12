@@ -63,7 +63,7 @@ In order to produce a graphics representation of the Pearson correlation between
 >          diag=FALSE <br>
 >          )<br>
 
-The graphics representation of the Pearson correlation between all Na masqued Ratio Variables is presented in: Table_4_21c_Page 164_RatioswithNA_Correlation.pdf
+The graphics representation of the Pearson correlation between all Na masqued Ratio Variables is presented in Table_4_21c_Page 164_RatioswithNA_Correlation.pdf<br>
 <img src="./assets/Table_4_21c_Page 164_RatioswithNA_Correlation.JPG" alt="drawing" width="60%"/><br>
 
 
