@@ -4,12 +4,12 @@ The ratio variables span indexes 86 to 119 in the 7a) Testing on selected ratio 
 We are using the corrplot R package for display.<br
 We are following the examples of: -> http://www.sthda.com/english/wiki/visualize-correlation-matrix-using-correlogram
 
-> install.packages("corrplot")
-> library(corrplot)
-> corrprs	<- cor(wcs2train[,c(86:119)], use="pairwise", method="pearson")
-> p.mat <- cor.pvalue(wcs2train[,c(86:119)])
-> col <- colorRampPalette(c("#BB4444", "#fcc3b8", "#FFFFFF", "#add2f7", "#4fc69d"))
-> corrplot(corrprs, method="color", col=col(200),  
+> install.packages("corrplot")<br>
+> library(corrplot)<br>
+> corrprs	<- cor(wcs2train[,c(86:119)], use="pairwise", method="pearson")<br>
+> p.mat <- cor.pvalue(wcs2train[,c(86:119)])<br>
+> col <- colorRampPalette(c("#BB4444", "#fcc3b8", "#FFFFFF", "#add2f7", "#4fc69d"))<br>
+> corrplot(corrprs, method="color", col=col(200), <br> 
          type="upper",<br> 
          addCoef.col = "black", \# Add coefficient of correlation<br>
          addCoefasPercent = TRUE,<br>
