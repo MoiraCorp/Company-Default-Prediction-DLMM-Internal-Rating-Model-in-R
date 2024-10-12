@@ -47,5 +47,23 @@ In order to compute the matrix of p-value,  we use the custom cor.pvalue() R fun
 > }<br>
 
 In order to produce a graphics representation of the Pearson correlation between all NA masqued Ratio Variables we are using the corrplot R package: -> https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html
-> 
+
+> library(corrplot)<br>
+> corrprs	<- cor(wcs2train.ratios.NA, use="pairwise", method="pearson")<br>
+> p.mat <- cor.pvalue(wcs2train.ratios.NA)<br>
+> col <- colorRampPalette(c("#BB4444", "#fcc3b8", "#FFFFFF", "#add2f7", "#4fc69d"))<br>
+> corrplot(corrprs, method="color", col=col(200), <br> 
+>          type="upper",  <br>
+>          addCoef.col = "black", \# Add coefficient of correlation<br>
+>         addCoefasPercent = TRUE,<br>
+>          tl.col="black", tl.srt=45, #Text label color and rotation<br>
+>          \# Combine with significance<br>
+>          p.mat = p.mat, sig.level = 0.01, insig = "blank", <br>
+>          \# hide correlation coefficient on the principal diagonal<br>
+>          diag=FALSE <br>
+>          )<br>
+
+The graphics representation of the Pearson correlation between all Na masqued Ratio Variables is presented in: Table_4_21c_Page 164_RatioswithNA_Correlation.pdf
+<img src="./assets/Table_4_21c_Page 164_RatioswithNA_Correlation.JPG" alt="drawing" width="60%"/><br>
+
 
