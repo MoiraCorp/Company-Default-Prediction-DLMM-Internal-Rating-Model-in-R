@@ -6,7 +6,7 @@ Here we follows step by step the contents of Chap. 4, section 4.5.9 : Transforma
 
 ## Method
 
-> <p><strong>Replacement of NA encoded outliers by interpolation </strong> </p>
+> <p><strong>Replacement of NA encoded outliers by interpolation </strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step1à/naencode)</p>
 > <p><strong>Transformation of indicators using a logistic formula: the case of the ROE ratio</strong></p>
 > <p><strong>Encoding of empirical non-monotonicity: the case of the ROE ratio</strong></p>
 > <p><strong>Re-binning categorical variables: the case of the SECTOR variable</strong></p>
