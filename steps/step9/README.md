@@ -6,7 +6,7 @@ This implementation follows step by step the content of Chap. 4, section 4.5.8 :
 
 ## Method
 
-The authosr base their approach on the use of the “interquartile range” (IQR).<br>
+The authors base their approach on the use of the “interquartile range” (IQR).<br>
 More precisely they name “outliers”, those samples which values are higher than the 3rd quartile (Q3) and lower than the 1st quartile (Q1).
 
 > <p><strong>Computing the number of outliers for the ration ROE (page 163) </strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step9/roeoutlr)</p>
