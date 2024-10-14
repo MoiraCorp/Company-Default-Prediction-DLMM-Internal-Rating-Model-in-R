@@ -1,4 +1,4 @@
-## Replacement of NA encoded outliers by interpolation
+## Replacement of NA encoded outliers by multidimensional interpolation
 
 In the previous section (step9), we have detected “extreme outliers” and encoded them as NA (not Available)<br>
 However, most AI methods require the processing FULL datatables.<br>
