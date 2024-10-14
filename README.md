@@ -16,7 +16,7 @@ This implementation follows step by step the content of Chap. 4:  Developing a s
 > <p><strong>Step 7</strong> - Empirical monotonicity of ROE relative to good-bad progression  -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step7) </p>
 > <p><strong>Step 8</strong> - Correlation between variable couples  -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step8) </p>
 > <p><strong>Step 9</strong> - Analysis of outliers -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step9) </p>
-> <p><strong>Step 10</strong> - Data encoding</p>
+> <p><strong>Step 10</strong> - Data encoding -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step10) </p>
 > <p><strong>Step 11</strong> - Synoptic table of variable properties</p>
 > <p><strong>Step 12</strong> - Linear Discriminant Analysis</p>
 > <p><strong>Step 13</strong> - TBD Logistic Regression</p>
