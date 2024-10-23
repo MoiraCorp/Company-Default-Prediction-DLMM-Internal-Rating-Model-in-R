@@ -27,4 +27,12 @@ The present dataset being essentially “multidimensional” it is better justif
 
 ### Comparison of Ratio Variables range and statistics before and after “outliers” processing
 
+We compare the Ratio Variables range and statistics between the corrected datatable wcs2train.ratios.CT and the uncorrected “original” datatable wcs2train.ratios using the built in summry() function from the standard R package.
+
+> summary(wcs2train.ratios.CT)
+> summary(wcs2train.ratios)
+
+<em>NOTE: </em> We are not presenting here the printed ouputs of these two functions as they are being too bulky<br><br>
+From these outputs it is esasy to see that the mean and median of each variable are comparable but that the Min. and Max; “extreme” values have been somewhat “reined in” to the exception of vriaables such as V110A for which no outliers were detected (see previous section)
+
 ### Study of Ratio Variables correlation properties after “outliers” processing
