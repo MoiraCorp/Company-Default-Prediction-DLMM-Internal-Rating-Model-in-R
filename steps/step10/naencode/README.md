@@ -33,6 +33,6 @@ We compare the Ratio Variables range and statistics between the corrected datata
 > summary(wcs2train.ratios)
 
 <em>NOTE: </em> We are not presenting here the printed ouputs of these two functions as they are being too bulky<br><br>
-From these outputs it is esasy to see that the mean and median of each variable are comparable but that the Min. and Max; “extreme” values have been somewhat “reined in” to the exception of vriaables such as V110A for which no outliers were detected (see previous section)
+From these outputs it is esasy to see that the mean and median of each variable are comparable befaore and after processing but that the Min. and Max; “extreme” values have been somewhat “reined in” by the NA values replacement to the exception of vriaables such as V110A for which no outliers were detected (see previous section)
 
 ### Study of Ratio Variables correlation properties after “outliers” processing
