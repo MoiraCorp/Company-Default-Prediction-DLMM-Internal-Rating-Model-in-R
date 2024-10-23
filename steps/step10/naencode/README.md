@@ -11,9 +11,19 @@ The present dataset being essentially “multidimensional” it is better justif
 > \# Checking on variables type in the datatable<br>
 > sapply(wcs2train.ratios.NA, class)<br>
 
+##### <em>The printed output is:
+&nbsp;      ROE  EBITDAON       ROI       ROA      V89A       ROS  ASSETSTU  INVENTOR  RECEIVAB      V94A      V95A  PAYABLES  COMMERCI  IEONEBIT  NIEONEBI  IEONLIAB IEONFINA.    EXTRIC  TAXESONG  INTANGIB  TRADERE.     V110A  EQUITYON TRADEPA.   DEBTEQU   CURRENT   QUICKRA  SALESONV  SALESMIN  ROAMINUS  EBITDAIE EQUILIABL DEBTEQUTR     ROET<br> 
+&nbsp;      "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "integer"<br></em>
 
-
-
+> \# Loading the necessary processing libraries<br>
+> library(FactoMineR)<br>
+> library(missMDA)<br>
+> \# Estimate the number of PCA components necessary for a correct interpolation of NAs<br>
+> ncomp <- estim_ncpPCA(wcs2train.ratios.NA)<br>
+> \# Perform multidimensional interpolation of NA values using the MissMDA method<br>
+> res.imp <- imputePCA(wcs2train.ratios.NA, ncp = ncomp$ncp)<br>
+> \# Extract the NA completed rows<br>
+> wcs2train.ratios.CT <- res.imp$completeObs[1:nrow(wcs2train.ratios.NA),]<br>
 
 ### Comparison of Ratio Variables range and statistics before and after “outliers” processing
 
