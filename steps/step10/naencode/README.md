@@ -45,7 +45,7 @@ This done by comparing the multi-dimensional variable correlation chart produce 
 Illustrated in: Outlier-Treatment_Page165_AllvariableswithCT_CoorDiag.pdf
 <img src="./assets/Outlier-Treatment_Page165_AllvariableswithCT_CoorDiag.JPG" alt="drawing" width="100%"/>
 
-<em>NOTE :</em>In this chart, the cloud points of Corrected data are strikingly similar to those presented in the datatable with outliers masked as NAs (-> https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step9/naoutlr)
+<em>NOTE :</em> In this chart, the cloud points of Corrected data are strikingly similar to those presented in the datatable with outliers masked as NAs (-> https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step9/naoutlr)
 
 
 
