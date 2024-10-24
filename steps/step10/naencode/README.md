@@ -37,7 +37,7 @@ From these outputs it is esasy to see that the mean and median of each variable 
 
 ### Study of Ratio Variables correlation properties after “outliers” processing
 
-This done by comparing the multi-dimensional variable correlation chart produce by the chart.Correlation() function belonging to the erformanceAnalytics  R package (-> https://cran.r-project.org/web/packages/PerformanceAnalytics/index.html)
+<strong>A first approach is to graphically evaluate the multi-dimensional variable correlation chart</strong> produced by the chart.Correlation() function belonging to the erformanceAnalytics  R package (-> https://cran.r-project.org/web/packages/PerformanceAnalytics/index.html)
 
 > library("PerformanceAnalytics")<br>
 > chart.Correlation(wcs2train.ratios.CT, histogram=TRUE, pch=19)<br>
@@ -47,6 +47,7 @@ Illustrated in: Outlier-Treatment_Page165_AllvariableswithCT_CoorDiag.pdf
 
 <em>NOTE :</em> In this chart, the cloud points of Corrected data are strikingly similar to those presented in the datatable with outliers masked as NAs (-> https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step9/naoutlr)
 
+<strong>A second approach is to compare the pair-wise correlation coefficients between variables </strong> as it has been proposed in Step 8 (-> https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step8/allvar).<br> This process enables to determine potentiala groups of similar behaved variables. It is done using the corrplot R package (-> https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html)
 
 
 
