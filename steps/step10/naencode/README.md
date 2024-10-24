@@ -47,7 +47,41 @@ Illustrated in: Outlier-Treatment_Page165_AllvariableswithCT_CoorDiag.pdf
 
 <em>NOTE :</em> In this chart, the cloud points of Corrected data are strikingly similar to those presented in the datatable with outliers masked as NAs (-> https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step9/naoutlr)
 
-<strong>A second approach is to compare the pair-wise correlation coefficients between variables </strong> as it has been proposed in Step 8 (-> https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step8/allvar).<br> This process enables to determine potentiala groups of similar behaved variables. It is done using the corrplot R package (-> https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html)
+<strong>A second approach is to compare the pair-wise correlation coefficients between variables </strong> as it has been proposed in Step 8 (-> https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step8/allvar).<br> This process enables to determine potential groups of similar behaved variables. It is done using the corrplot R package (-> https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html) uagmented by the corr.pvalue() function (see -> https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step8/selectvar)
+
+> cor.pvalue <- function(mat, ...) {<br> 
+    mat <- as.matrix(mat)<br>
+    n <- ncol(mat)<br>
+    p.mat<- matrix(NA, n, n)<br>
+    diag(p.mat) <- 0<br>
+    for (i in 1:(n - 1)) {<br>
+        for (j in (i + 1):n) {<br>
+            tmp <- cor.test(mat[, i], mat[, j], ...)<br>
+            p.mat[i, j] <- p.mat[j, i] <- tmp$p.value<br>
+        }<br>
+    }<br>
+  colnames(p.mat) <- rownames(p.mat) <- colnames(mat)<br>
+  p.mat
+}<br>
+
+> install.packages("corrplot")<br>
+> library(corrplot)<br>
+> corrprs	<- cor(wcs2train.ratios.CT, use="pairwise", method="pearson")<br>
+> p.mat <- cor.pvalue(wcs2train.ratios.CT)<br>
+> col <- colorRampPalette(c("#BB4444", "#fcc3b8", "#FFFFFF", "#add2f7", "#4fc69d"))<br>
+> corrplot(corrprs, method="color", col=col(200), <br> 
+         type="upper",<br> 
+         addCoef.col = "black", \# Add coefficient of correlation<br>
+         addCoefasPercent = TRUE,<br>
+         tl.col="black", tl.srt=45, \# Text label color and rotation<br>
+         \# Combine with significance
+         p.mat = p.mat, sig.level = 0.01, insig = "blank",<br>
+         \# hide correlation coefficient on the principal diagonal<br>
+         diag=FALSE<br>
+         )<br>
+The graphics representation of the Pearson correlation between all the Corrected Ratio Variables is presented in: Outlier-Treatment_Page 165_Ratios_Correlation.pdf
+<img src="./assets/Outlier-Treatment_Page 165_Ratios_Correlation.JPG" alt="drawing" width="60%"/>
+        
 
 
 
