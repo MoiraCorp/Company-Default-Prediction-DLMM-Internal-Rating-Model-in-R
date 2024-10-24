@@ -85,10 +85,16 @@ The graphics representation of the Pearson correlation between all the Corrected
 <em>NOTE :</em> It is allmost identical to the correlation diagram established betwwen all Na masqued Ratio Variables (-> https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step8/allvar)<br>
 This is conservation of corralation properties is inherent to the MissMCA interpolation method. This type of conservation is NOT guaranteed when using traditional mean-mode interpolation techniques.<bR>
 
-<strong>A third approach for discovering potential groups of corralated variables is to use PCA.</strong> In the present study, the use of Principal Componant Analysis (PCA) is validated by the fact that all variables are numerical. For PCA we are gain using the FactoMineR R package ( -> https://cran.r-project.org/web/packages/FactoMineR/index.html) along with the factoextra R package ( -> https://cran.r-project.org/web/packages/factoextra/readme/README.html) for producing the factor plane displays<br>
+<strong>A third approach for discovering potential groups of correlated variables is to use PCA.</strong> In the present study, the use of Principal Componant Analysis (PCA) is validated by the fact that all variables are numerical. For PCA we are gain using the FactoMineR R package ( -> https://cran.r-project.org/web/packages/FactoMineR/index.html) along with the factoextra R package ( -> https://cran.r-project.org/web/packages/factoextra/readme/README.html) for producing the factor plane displays<br>
 
-        
+> install.packages("factoextra")<br>
+> library(factoextra)<br>
+> library(FactoMineR)<br>
+> \# Perform PCA on NA interpolated matrix<br>
+> res.pca <- PCA(res.imp$completeObs)<br>
 
+The graphic representation of the PCA results in the 1-2 factor plane is presented in: Outlier-Treatment_Page 165_PCA.pdf
+<img src="./assets/Outlier-Treatment_Page 165_PCA.JPG" alt="drawing" width="100%"/>
 
 
 
