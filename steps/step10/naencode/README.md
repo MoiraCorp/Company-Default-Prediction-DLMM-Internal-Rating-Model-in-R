@@ -96,6 +96,8 @@ This is conservation of corralation properties is inherent to the MissMCA interp
 The graphic representation of the PCA results in the 1-2 factor plane is presented in: Outlier-Treatment_Page 165_PCA.pdf
 <img src="./assets/Outlier-Treatment_Page 165_PCA.JPG" alt="drawing" width="100%"/>
 
+<emNOTE :</em> This diagram confirms the grouping results outlined above using the Pearson correlation method
+
 
 
 
