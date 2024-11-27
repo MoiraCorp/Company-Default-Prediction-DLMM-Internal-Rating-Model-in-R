@@ -36,3 +36,7 @@ Apart from the ggplot2 package, we use the ggplotr R display package (an extensi
 > p3 <- qplot(ROE, data=wcs2train, fill=I("light blue"), col=I("black")) + ggtitle("Interest Expenses/Liabilities (ROE)")<br>
 > p4 <- qplot(logit, data=LOGIT_ROE, fill=I("orange"), col=I("black")) + ggtitle("Logit transformed (ROE)")<br>
 > grid.arrange(p3, p4, p1, p2, nrow = 2)<br>
+
+Illustrated in: Fig_4_19_Page 170_Logit Transformation_ROE uncorrected.pdf
+<img src="./assets/Fig_4_19_Page 170_Logit Transformation_ROE uncorrected.JPG" alt="drawing" width="100%"/>
+
