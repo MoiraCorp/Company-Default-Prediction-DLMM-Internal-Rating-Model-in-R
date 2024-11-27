@@ -40,3 +40,27 @@ Apart from the ggplot2 package, we use the ggplotr R display package (an extensi
 Illustrated in: Fig_4_19_Page 170_Logit Transformation_ROE uncorrected.pdf
 <img src="./assets/Fig_4_19_Page 170_Logit Transformation_ROE uncorrected.JPG" alt="drawing" width="100%"/>
 
+<em>NOTE :</em> The transformation does not remove the outliers which are still present in anomalous tails<p>
+
+Results are spectacularly better in terms of fitting to a normal distribution when the data is transformed so that the outliers have been masked following the method suggested in Step9 - Analysis of outliers - Masking outlier's values using the NA R notation. <br>
+In this case, he slope of 1500 suggested by the authors is beeing used.<br>
+
+> library(ggplot2)<br>
+> library("qqplotr")<br>
+> library("gridExtra")<br>
+> \# For use of ggplot2, matrix needed to be turned into a data.frame<br>
+> wcs2train_CT <- as.data.frame(wcs2train.ratios.CT)<br>
+> logit <- CDFlogistic(wcs2train_CT$ROE,0,1500)<br>
+> hist(logit, breaks = 50)<br>
+> LOGIT_ROE <- data.frame(logit)<br>
+> p2 <- ggplot(data=LOGIT_ROE, mapping = aes(sample=logit)) + stat_qq_line (color="grey") + stat_qq_point(color="orange") + labs(x = "Normal Quantiles", y = "Logit transformed (ROE-Outliers Corrected) Quantiles")<br>
+> p2 <- p2 + scale_y_continuous(limits=c(0.40,0.60), breaks=seq(0.40,0.60,0.1), expand = c(0, 0))<br>
+> p4 <- qplot(logit, data=LOGIT_ROE, fill=I("orange"), col=I("black")) + ggtitle("Logit transformed (ROE-Outliers Corrected)")<br>
+> p1 <- ggplot(data=wcs2train_CT, mapping = aes(sample=ROE)) + stat_qq_line (color="grey") + stat_qq_point(color="light blue") + labs(x = "Normal Quantiles", y = "ROE-Outliers Corrected")<br>
+> p1 <- p1 + scale_y_continuous(limits=c(-200,200), breaks=seq(-200,200,50), expand = c(0, 0))<br>
+> p3 <- qplot(ROE, data=wcs2train_CT, fill=I("light blue"), col=I("black")) + ggtitle("ROE-Outliers Corrected")<br>
+> grid.arrange(p3, p4, p1, p2, nrow = 2)<br>
+
+Illustrated in: Fig_4_19_Page 170_Logit Transformation_ROE-CT.pdf
+<img src="./assets/Fig_4_19_Page 170_Logit Transformation_ROE-CT.JPG" alt="drawing" width="100%"/>
+
