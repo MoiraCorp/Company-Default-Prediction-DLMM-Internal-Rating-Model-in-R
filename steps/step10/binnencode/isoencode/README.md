@@ -13,3 +13,5 @@ a technique already used in section Step7-Binning (--> https://github.com/MoiraC
 > p1 <- qplot(SALES, data=wcs2train, fill=I("light blue"), col=I("black")) + ggtitle("SALES")<br>
 > p2 <- qplot(logsales, data=LOGSALES, fill=I("orange"), col=I("black")) + ggtitle("Log10 of SALES")<br>
 > grid.arrange(p1, p2, nrow = 1)<br>
+
+The result is illustrated in: Fig_4_21b_Page 174_SALES_Log10.pdf
