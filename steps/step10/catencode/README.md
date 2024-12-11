@@ -51,4 +51,8 @@ From the illustration, one can suggest the following regrouping:<br>
 > tbl <- table(sector_recoded$SECTOR3, wcs2train$BADGOOD)<br>
 > chisq.test(tbl)
 
+##### <em>The printed output is:
+data:  tbl<br>
+X-squared = 2.7683, df = 4, p-value = 0.5973<br>
+</em>
 
