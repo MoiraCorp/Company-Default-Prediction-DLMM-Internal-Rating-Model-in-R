@@ -24,4 +24,4 @@ Area under the curve: 0.5977
 
 The authors propose to “bin” the variable SALES into a small number of classes in order to have a better contrast between firm’s categories. We will compare the results obtained from an “isopupulation” binning method similar to the one already used in order to study the monotonicity of the Ratio Variables with the manual method adopetd by the authors for determining the intervals of binning.<br>
 > <p><strong>Isopopulation «binning» of Log10-SALES in order to explore concordances of SALES level with default rate</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step10/binnencode/isoencode)</p>
-> <p><strong>Using empirical « binning » proposed by authors on SALES in order to explore concordances of SALES level with default rate</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/step10/binnencode/manencode)</p>
+> <p><strong>Using empirical « binning » proposed by authors on SALES in order to explore concordances of SALES level with default rate</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step10/binnencode/manencode)</p>
