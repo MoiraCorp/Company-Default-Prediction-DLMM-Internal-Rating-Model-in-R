@@ -56,3 +56,8 @@ data:  tbl<br>
 X-squared = 2.7683, df = 4, p-value = 0.5973<br>
 </em>
 
+It is good to list here the results which were previously obtained with the oricinal SECTOR categories as:<br>
+##### <em>The printed output was:
+data:  tbl<br>
+X-squared = 4.2799, df = 18, p-value = 0.9996<br>
+</em>
