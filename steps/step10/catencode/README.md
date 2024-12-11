@@ -47,3 +47,8 @@ From the illustration, one can suggest the following regrouping:<br>
 | SC3 | 6 | 101 |
 | SC1 | 7 | 236 |
 </em>
+
+> tbl <- table(sector_recoded$SECTOR3, wcs2train$BADGOOD)<br>
+> chisq.test(tbl)
+
+
