@@ -18,5 +18,11 @@ For this purpose we are evaluating the Analysis of Similarities ANOSIM method (h
 The results are illustrated in: Table_4_22b_page 172_SECTOR Group similiraties.pdf<br><br>
 <img src="./assets/Table_4_22b_page 172_SECTOR Group similiraties.JPG" alt="drawing" width="80%"/>
 
+From the illustration, one can suggest the following regrouping:<br>
+	SC1:	482<br>
+	SC2:	430<br>
+	SC3:	614, 490, 480<br>
+	SC4:	492, 481, 600, 615, (450)<br>
+	SC5:	All others<br>
 
 ### Testing the discrimatory power of regrouped sectors
