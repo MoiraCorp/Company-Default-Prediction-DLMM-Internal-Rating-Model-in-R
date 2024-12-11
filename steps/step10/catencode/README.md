@@ -6,6 +6,11 @@ In the datatable used in the book, there is only one category variable (idem., q
 Unfortunately, for some companies’ sector, the table is fairly sparse. In order to manipulate a better “balanced” distribution, SECTOR categories need to be regrouped.<p>
 
 For aggregating sectors, the best could be probably to generate a form of similarity abalysis based on the Ratios Variables corrected from extreme outliers.
-For this purpose we are evaluating the Analysis of Similarities ANOSIM method (https://www.rdocumentation.org/packages/vegan/versions/2.3-5/topics/anosim)
+For this purpose we are evaluating the Analysis of Similarities ANOSIM method (https://www.rdocumentation.org/packages/vegan/versions/2.3-5/topics/anosim)<br>
+
+> install.packages("vegan")<br>
+> library(vegan)<br>
+> sector.ano <- anosim(wcs2train_CT,wcs2train$SECTOR)<br>
+> plot(sector.ano)<br>
 
 ### Testing the discrimatory power of regrouped sectors
