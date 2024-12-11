@@ -61,3 +61,6 @@ It is good to list here the results which were previously obtained with the oric
 data:  tbl<br>
 X-squared = 4.2799, df = 18, p-value = 0.9996<br>
 </em>
+
+It is interesting to note that for the recoded SECTOR3 variable, the p value is about 0.6 which is better than almost 1.0 for the initial SECTOR variable.
+However, the <em>value of 0.6 is still well above the 0.05 significance level</em> which would guarantee that SECTOR3 is significantly influenced by the fat that the companies are in default.
