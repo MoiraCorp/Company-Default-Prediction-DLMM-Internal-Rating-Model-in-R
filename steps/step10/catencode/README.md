@@ -39,10 +39,11 @@ From the illustration, one can suggest the following regrouping:<br>
 > table(sector_recoded$SECTOR3, wcs2train$BADGOOD)
 
 ##### <em>The printed output is:
-   "Group code"   "Bad" "Good"<br>
-  SC5     0     12<br>
-  SC2    33    712<br>
-  SC4     5    160<br>
-  SC3     6    101<br>
-  SC1     7    236<br>
+| Group code | "Bad" | "Good" |
+| ---------- | ----- | ------ |
+| SC5 | 0 | 12 |
+| SC2 | 33 | 712 |
+| SC4 | 5 | 160 |
+| SC3 | 6 | 101 |
+| SC1 | 7 | 236 |
 </em>
