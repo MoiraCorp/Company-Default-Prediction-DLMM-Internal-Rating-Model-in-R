@@ -28,29 +28,21 @@ From the illustration, one can suggest the following regrouping:<br>
 
 ### Testing the discrimatory power of regrouped sectors
 
-We start by displaying the number of Bad-Good companies for each section:
-> table(wcs2train$SECTOR, wcs2train$BADGOOD)
+> table(wcs2train$SECTOR, wcs2train$BADGOOD)<br>
+> sector_recoded <- subset(wcs2train, select=c("SECTOR"))<br>
+> sector_recoded$SECTOR3 <- revalue(sector_recoded$SECTOR, c(<br>
+	'"482"'='SC1',<br>
+	'"430"'='SC2',<br>
+	'"614"'='SC3','"490"'='SC3','"480"'='SC3',
+	'"492"'='SC4','"481"'='SC4','"600"'='SC4','"615"'='SC4','"450"'='SC4',<br>
+	'"258"'='SC5','"268"'='SC5','"273"'='SC5','"280"'='SC5','"294"'='SC5','"431"'='SC5','"470"'='SC5','"473"'='SC5','"491"'='SC5','"NA"'='SC5'))<br>
+> table(sector_recoded$SECTOR3, wcs2train$BADGOOD)
 
 ##### <em>The printed output is:
    "Group code"   "Bad" "Good"<br>
-  "258"     0      1<br>
-  "268"     0      2<br>
-  "273"     0      1<br>
-  "280"     0      1<br>
-  "294"     0      1<br>
-  "430"    33    712<br>
-  "431"     0      1<br>
-  "450"     0      4<br>
-  "470"     0      1<br>
-  "473"     0      2<br>
-  "480"     0     13<br>
-  "481"     0      3<br>
-  "482"     7    236<br>
-  "490"     1     17<br>
-  "491"     0      1<br>
-  "492"     4    114<br>
-  "600"     0      4<br>
-  "614"     5     71<br>
-  "615"     1     35<br>
-  "NA"      0      1<br>
+  SC5     0     12<br>
+  SC2    33    712<br>
+  SC4     5    160<br>
+  SC3     6    101<br>
+  SC1     7    236<br>
 </em>
