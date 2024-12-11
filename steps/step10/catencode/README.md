@@ -13,6 +13,10 @@ For this purpose we are evaluating the Analysis of Similarities ANOSIM method (h
 > sector.ano <- anosim(wcs2train_CT,wcs2train$SECTOR)<br>
 > plot(sector.ano)<br>
 
-<em>NOTE:</em> Due to computation time, it is probably more efficient to work with a limited number of principal components extracted from a prior PCA of the Ratio Variables datatable
+<em>NOTE:</em> Due to computation time, it is probably more efficient to work with a limited number of principal components extracted from a prior PCA of the Ratio Variables datatable<p>
+
+The results are illustrated in: Table_4_22b_page 172_SECTOR Group similiraties.pdf<br><br>
+<img src="./assets/Table_4_22b_page 172_SECTOR Group similiraties.JPG" alt="drawing" width="80%"/>
+
 
 ### Testing the discrimatory power of regrouped sectors
