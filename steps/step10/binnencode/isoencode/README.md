@@ -15,3 +15,4 @@ a technique already used in section Step7-Binning (--> https://github.com/MoiraC
 > grid.arrange(p1, p2, nrow = 1)<br>
 
 The result is illustrated in: Fig_4_21b_Page 174_SALES_Log10.pdf
+<img src="./assets/Fig_4_21b_Page 174_SALES_Log10.JPG" alt="drawing" width="80%"/>
