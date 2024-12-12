@@ -52,4 +52,17 @@ In order to match the intervals proposed by the author we decides to section int
 | SALES_5 | 16 | 237 |
 </em>
 
+> tbl <- table(SALES5, wcs2train$BADGOOD)<br>
+> chisq.test(tbl)
+
+##### <em>The printed output is:
+Pearson's Chi-squared test<br>
+data:  tbl<br>
+X-squared = 5.5925, df = 4, p-value = 0.2317<br>
+</em>
+
+<em>NOTE :</em> Although the result of the Chi-square test is much better than previous one (ex: 0.23 compared with 0.59 for recoded SECTOR (SECTOR3)),
+it is not yet conclusive as the level of positive test on concordance is at 0.05
+
+
 
