@@ -28,6 +28,28 @@ In order to match the intervals proposed by the author we decides to section int
   Boundary   1.000   658.000   1403.195   2829.598   7591.993   464186.000 
 </em>
 
-<em>NOTE:</em> It is worth noting here that Log10-SALES vector has been previously “cleaned” the eliminating the minus-infinity values and replacing them by NA. Thus in SALES the firms with zero values have been discarded. This explains that here the minimum value is 1.
+<em>NOTE:</em> It is worth noting here that Log10-SALES vector has been previously “cleaned” the eliminating the minus-infinity values and replacing them by NA. Thus in SALES the firms with zero values have been discarded. This explains that here the minimum value is 1.<br>
+
+> \# Encoding Log10-SALES as a factor<br>
+> bins_cut = 5<br>
+> for(j in 1:bins_cut) {<br>
+> 	if(j == 1){<br>
+> 		collist <- c(sprintf("%s_1","SALES"))<br>
+> 	} else {<br>
+> 		collist <- append(collist, sprintf("%s_%s","SALES",j))<br>
+> 	}<br>
+> }<br>
+> SALES5 <- with(LOGSALES, bin.var(LOGSALES$logsales, bins=bins_cut, method='proportions', labels=collist))<br>
+> table(SALES5, wcs2train$BADGOOD)<br>
+
+##### <em>The printed output is:</b>
+| SALES5 | "Bad" | "Good" |
+| ------ | ----- | ------ |
+| SALES_1 | 6 | 248 |
+| SALES_2 | 9 | 242 |
+| SALES_3 | 9 | 243 |
+| SALES_4 | 11 | 241 |
+| SALES_5 | 16 | 237 |
+</em>
 
 
