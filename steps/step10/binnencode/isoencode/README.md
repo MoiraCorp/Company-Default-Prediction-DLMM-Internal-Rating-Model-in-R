@@ -21,6 +21,13 @@ In order to match the intervals proposed by the author we decides to section int
 
 > bins_cut = 5<br>
 > quant <- quantile(logsales, probs = seq(0, 1, 1/bins_cut), na.rm = TRUE)<br>
-> quant
+> quant<br>
+
+##### <em>The printed output is:</b>
+  Percent   0%   20%   40%    60%   80%   100%  
+  Boundary   1.000   658.000   1403.195   2829.598   7591.993   464186.000 
+</em>
+
+<em>NOTE:</em> It is worth noting here that Log10-SALES vector has been previously “cleaned” the eliminating the minus-infinity values and replacing them by NA. Thus in SALES the firms with zero values have been discarded. This explains that here the minimum value is 1.
 
 
