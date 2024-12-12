@@ -33,8 +33,10 @@
 > tbl <- table(SALES3, wcs2train$BADGOOD)<br>
 > chisq.test(tbl)
 
-##### <em>The printed output is:
+##### <em>The printed output is:</b>
 Pearson's Chi-squared test<br>
 data:  tbl<br>
 X-squared = 6.2766, df = 2, p-value = 0.04336<br>
 </em>
+
+<em>NOTE:</em> The “empirical” binning of the SALES variable proposed by the authors, does display a <b>strong concordance (p < 0.05) between SALES level and default rate</b>. However the proposed arguments for selecting the “binning” (idem, coding) intervals <b>does not lead to a systematic "binning" methodology</b>. 
