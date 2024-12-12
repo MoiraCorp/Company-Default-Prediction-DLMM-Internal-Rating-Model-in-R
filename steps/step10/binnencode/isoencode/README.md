@@ -21,5 +21,6 @@ In order to match the intervals proposed by the author we decides to section int
 
 > bins_cut = 5<br>
 > quant <- quantile(logsales, probs = seq(0, 1, 1/bins_cut), na.rm = TRUE)<br>
-> quant<br>
+> quant
+
 
