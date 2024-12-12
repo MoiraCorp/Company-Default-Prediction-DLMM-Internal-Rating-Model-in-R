@@ -21,3 +21,20 @@
 > SALES3 <- with(wcs2train, cut(wcs2train$SALES, bookquant, include.lowest = TRUE, labels=collist))<br>
 > tbl <- table(SALES3, wcs2train$BADGOOD)<br>
 > tbl
+
+##### <em>The printed output is:</b>
+| SALES5 | "Bad" | "Good" |
+| ------ | ----- | ------ |
+| SALES_1 | 9 | 380 |
+| SALES_2 | 26 | 601 |
+| SALES_3 | 16 | 240 |
+</em>
+
+> tbl <- table(SALES3, wcs2train$BADGOOD)<br>
+> chisq.test(tbl)
+
+##### <em>The printed output is:
+Pearson's Chi-squared test<br>
+data:  tbl<br>
+X-squared = 6.2766, df = 2, p-value = 0.04336<br>
+</em>
