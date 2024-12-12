@@ -17,4 +17,9 @@ a technique already used in with function bin.var() section Step7-Binning (--> h
 The result is illustrated in: Fig_4_21b_Page 174_SALES_Log10.pdf
 <img src="./assets/Fig_4_21b_Page 174_SALES_Log10.JPG" alt="drawing" width="80%"/>
 
-In order to match the intervals proposed by the author we decides to section into equipopulation “bins” which are determined using the quantile() function from the satndard R package.<b>
+In order to match the intervals proposed by the author we decides to section into 5 equipopulation “bins” which are determined using the quantile() function from the satndard R package.<b>
+
+> bins_cut = 5<br>
+> quant <- quantile(logsales, probs = seq(0, 1, 1/bins_cut), na.rm = TRUE)<br>
+> quant<br>
+
