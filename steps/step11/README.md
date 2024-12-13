@@ -20,3 +20,11 @@ In order to fill the synoptic table some of the operations performed in the prev
   "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric"<br>
   "numeric"   "numeric" "integer"
 </em>
+
+
+> <p><strong>Theoretical relation as a function of probability of default f(p(D)) </strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step11/relpro)</p>
+> <p><strong>Empirical Monotonicity determination</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step11/empmono)</p>
+> <p><strong>Comparative BAD/GOOD for Ratio Variables statistical distributions</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step11/compratvar)</p>
+> <p><strong>Histograms and Normality hypothesis for Ratio Variables</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step11/normratvar)</p>
+> <p><strong>Measures of separability between GOOD and BAD (idem, Default) groups</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step11/sepratvar)</p>
+> <p><strong>Correlation between Ratio Variables</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step11/corrratvar)</p>
