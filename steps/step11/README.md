@@ -27,4 +27,4 @@ In order to fill the synoptic table some of the operations performed in the prev
 > <p><strong>Comparative BAD/GOOD for Ratio Variables statistical distributions</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step11/compratvar)</p>
 > <p><strong>Histograms and Normality hypothesis for Ratio Variables</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step11/normratvar)</p>
 > <p><strong>Measures of separability between GOOD and BAD (idem, Default) groups</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step11/sepratvar)</p>
-> <p><strong>Correlation between Ratio Variables</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step11/corrratvar)</p>
+> <p><strong>Correlation between Ratio Variables</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step11/corratvar)</p>
