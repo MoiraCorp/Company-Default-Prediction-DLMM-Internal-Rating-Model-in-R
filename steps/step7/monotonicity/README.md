@@ -44,7 +44,7 @@ ROE_9   0.307<br>
 If the encoded variable ROE9 would be monotic versus STATUS (BADGOOD) then the coordinates of ROE_1 to ROE_9 on the first axis should be respect-full of the order 1 to 9 (Guttman effect)<br>
 We will use this property in oreder to build a test for monotonicity which will be called "MCA Monotonicity test"
 
-#### Performaing the MCA monotonicity test  all the ratio variables
+#### Performing the MCA monotonicity test on all the ratio variables
 
 The test is performed on the variables recommended for their monotonicity on page 160.<br>
 to the exception of V95A-96, V110A-107 for the bin.var() function does not behave appropriatley  with parameters "bin.cut" and "proportions" 
