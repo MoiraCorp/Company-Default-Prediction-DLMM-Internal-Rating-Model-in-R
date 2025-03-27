@@ -77,3 +77,26 @@ It processe 31 variables.
 }  <br>
 > ncol(RATIO9vSTATUS)
 > [1] 32
+
+This table has the variable STATUS in first column followed by the 31 “binned” variables. We finally generate out of this table presenting the default rates for 15 variables at time
+
+> \# 15 figures arranged in 3 rows and 5 columns
+> attach(mtcars)
+> par(mfrow=c(3,5))
+> for(i in 2:16){  <br>
+	R9VB <- table(RATIO9vSTATUS[,i], RATIO9vSTATUS$STATUS)  <br>
+	badrate <- R9VB[,1]/(R9VB[,1]+R9VB[,2])*100.0  <br>
+	R9VB <- cbind(R9VB, badrate)  <br>
+	plot(R9VB[,3], main = sprintf("Default rates for %s intervals",names(RATIO9vSTATUS)[i]), xlab = sprintf("%s(Binned)",names(RATIO9vSTATUS)[i]), ylab="Bad rate [%]")  <br>
+	lines(R9VB[,3], type="b", pch=21, col="black", yaxt="n", lwd=2)  <br>
+}  <br>
+
+Default rates variation for variables: ROE,EBITDAON,ROI,ROA,V89A,ROS,ASSETSTU,INVENTOR,RECEIVAB,V94A,V95A,PAYABLES,COMMERCI,IEONEBIT,NIEONEBI (Table_4_26_Page 178_C2_Pt1.pdf)
+
+
+Default rates variation for variables: IEONLIAB,IEONFINA.,EXTRIC,TAXESONG,INTANGIB,TRADERE.,V110A,EQUITYON,TRADEPA.,DEBTEQU,CURRENT,QUICKRA,SALESONV,SALESMIN,ROAMINUS,EBITDAIE,EQUILIABL,DEBTEQUTR (Table_4_26_Page 178_C2_Pt2.pdf)
+
+
+Default rates variation for variable: ROETR (Table_4_26_Page 178_C2_Pt3.pdf)
+
+
