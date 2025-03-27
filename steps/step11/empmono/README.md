@@ -97,6 +97,7 @@ Default rates variation for variables: ROE,EBITDAON,ROI,ROA,V89A,ROS,ASSETSTU,IN
 Default rates variation for variables: IEONLIAB,IEONFINA.,EXTRIC,TAXESONG,INTANGIB,TRADERE.,V110A,EQUITYON,TRADEPA.,DEBTEQU,CURRENT,QUICKRA,SALESONV,SALESMIN,ROAMINUS,EBITDAIE,EQUILIABL,DEBTEQUTR (Table_4_26_Page 178_C2_Pt2.pdf)
 <img src="./assets/Table_4_26_Page 178_C2_Pt2.jpg" alt="drawing" width="100%"/>
 
+
 Default rates variation for variable: ROETR (Table_4_26_Page 178_C2_Pt3.pdf)
-<img src="./assets/Table_4_26_Page 178_C2_Pt3.jpg" alt="drawing" width="30%"/>
+<img src="./assets/Table_4_26_Page 178_C2_Pt3.jpg" alt="drawing" width="20%"/>
 
