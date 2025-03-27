@@ -23,3 +23,15 @@ We are using the bin.var() function for isopopulation “binning”
     }  <br>
     as.factor(x)  <br>
 }  <br>
+
+We also decide to process the distributions after removal of “extreme” outliers in order to avoid spurious relations
+And, we will not correct these values by interpolation.
+
+> wcs2train.ratios.NA <- wcs2train.ratios  <br>
+for(i in 1:length(wcs2train.ratios.NA)){  <br>
+	\# use the function to identify extreme outliers  <br>
+	extreme.outl <- FindOutliers(wcs2train.ratios.NA[,i])  <br>
+> \# Replacing extreme outliers values by NA  <br>
+	wcs2train.ratios.NA[,i][extreme.outl] <- NA  <br>
+	cat(sprintf("%s\n", colnames(wcs2train.ratios)[i]))  <br>
+}  <br>
