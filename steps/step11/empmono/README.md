@@ -44,3 +44,36 @@ Some variables are not amenable to “Binning” by the bin.var() function (with
 - 19 - TAXESONG	-> This variable should probably excluded from this process. It is a similar case than EXTRIC. It has 305 values = 0 and 5 values = NA (A rare case in this datatable)
 - 22 - V110A	-> This variable is equal to INVENTOR/TOTAL ASSETS and  has 154 corresponding values = 0
 - 28 – SALESONV	-> This variable should probably be excluded from this process. Its is equal to SALES/Value of production (or OPRE), and has 517 values = 100
+
+We decide to retrain the variables: INVENTOR, V95A and V110A after masking their exception values by recoding as NA
+The variables: EXTRIC, TAXESONG and SALESONV are excluded from this study phase.
+
+> wcs2train.ratios.MON <- wcs2train.ratios.NA
+> wcs2train.ratios.MON[["INVENTOR"]] [ wcs2train.ratios.MON[["INVENTOR"]] == -1 ] <- NA
+> wcs2train.ratios.MON[["V95A"]] [ wcs2train.ratios.MON[["V95A"]] == 0 ] <- NA
+> wcs2train.ratios.MON[["V110A"]] [ wcs2train.ratios.MON[["V110A"]] == 0 ] <- NA
+
+The isopopulation “binning” avoids processing EXTRIC, TAXESONG and SALESONV by use of a seq object (idem, list of indices)
+It processe 31 variables.
+
+> STATUS <- wcs2train$BADGOOD
+> RATIO9vSTATUS <- cbind.data.frame(STATUS=levels(STATUS)[STATUS])
+> varcount = 1
+> seq <- c(1:17,20:27,29:34)
+> for(i in seq){   <br>
+	cat(sprintf("%s - %s\n", i, colnames(wcs2train.ratios.MON)[i]))  <br>	
+	bins_cut = 9  <br>
+	for(j in 1:bins_cut) {  <br>
+		if(j == 1){  <br>
+	        	collist <- c(sprintf("%s_1",names(wcs2train.ratios.MON)[i]))  <br>
+		} else {  <br>
+			collist <- append(collist, sprintf("%s_%s",names(wcs2train.ratios.MON)[i],j))  <br>
+		}  <br>
+	}  <br>
+	ratio9 <- with(wcs2train.ratios.MON, bin.var(wcs2train.ratios.MON[,i], bins=bins_cut, method='proportions', labels=collist))  <br>
+	RATIO9vSTATUS <- cbind.data.frame(RATIO9vSTATUS, ratio9=levels(ratio9)[ratio9])  <br>
+	varcount = varcount + 1;  <br>
+	names(RATIO9vSTATUS)[varcount] = names(wcs2train.ratios.MON)[i]  <br>
+}  <br>
+> ncol(RATIO9vSTATUS)
+> [1] 32
