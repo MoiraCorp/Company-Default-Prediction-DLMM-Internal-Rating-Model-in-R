@@ -35,3 +35,12 @@ for(i in 1:length(wcs2train.ratios.NA)){  <br>
 	wcs2train.ratios.NA[,i][extreme.outl] <- NA  <br>
 	cat(sprintf("%s\n", colnames(wcs2train.ratios)[i]))  <br>
 }  <br>
+
+Some variables are not amenable to “Binning” by the bin.var() function (with index going from 1:34):
+
+- 8 - INVENTOR	-> This variable has 154 values = -1
+- 11 - V95A	-> This variable is equal to INVENTOR/SALES, has 154 corresponding values = 0	
+- 18 - EXTRIC	-> This variable should probably be excluded from this process. It has 502 values = 1 which are either convential values or excessive rounding operation results.
+- 19 - TAXESONG	-> This variable should probably excluded from this process. It is a similar case than EXTRIC. It has 305 values = 0 and 5 values = NA (A rare case in this datatable)
+- 22 - V110A	-> This variable is equal to INVENTOR/TOTAL ASSETS and  has 154 corresponding values = 0
+- 28 – SALESONV	-> This variable should probably be excluded from this process. Its is equal to SALES/Value of production (or OPRE), and has 517 values = 100
