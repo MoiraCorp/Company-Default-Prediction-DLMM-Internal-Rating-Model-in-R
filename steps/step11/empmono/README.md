@@ -92,12 +92,17 @@ This table has the variable STATUS in first column followed by the 31 “binned�
 }  <br>
 
 Default rates variation for variables: ROE,EBITDAON,ROI,ROA,V89A,ROS,ASSETSTU,INVENTOR,RECEIVAB,V94A,V95A,PAYABLES,COMMERCI,IEONEBIT,NIEONEBI (Table_4_26_Page 178_C2_Pt1.pdf)
-<img src="./assets/Table_4_26_Page 178_C2_Pt1.jpg" alt="drawing" width="100%"/>
+<img src="./assets/Table_4_26_Page 178_C2_Pt1.jpg" alt="drawing" width="100%"/><br>
 
 Default rates variation for variables: IEONLIAB,IEONFINA.,EXTRIC,TAXESONG,INTANGIB,TRADERE.,V110A,EQUITYON,TRADEPA.,DEBTEQU,CURRENT,QUICKRA,SALESONV,SALESMIN,ROAMINUS,EBITDAIE,EQUILIABL,DEBTEQUTR (Table_4_26_Page 178_C2_Pt2.pdf)
-<img src="./assets/Table_4_26_Page 178_C2_Pt2.jpg" alt="drawing" width="100%"/>
-
+<img src="./assets/Table_4_26_Page 178_C2_Pt2.jpg" alt="drawing" width="100%"/><br>
 
 Default rates variation for variable: ROETR (Table_4_26_Page 178_C2_Pt3.pdf)
-<img src="./assets/Table_4_26_Page 178_C2_Pt3.jpg" alt="drawing" width="20%"/>
+<img src="./assets/Table_4_26_Page 178_C2_Pt3.jpg" alt="drawing" width="20%"/><br>
+
+The results of evaluation are placed in the column “Empirical Monotinicity” from the synoptic table:  <a id="raw-url" href="https://github.com/MoiraCorp/DLMM-IRating-in-R/blob/main/steps/step11/relpro/assets/Ratios_Synoptic_De%20Laurentis.xls">Ratios_Synoptic_De Laurentis.xls</a>
+Our evaluation is often in synch with that of the author.
+
+Illustrated in: Ratios_Synoptic_De Laurentis.jpg
+<img src="./assets/Ratios_Synoptic_De Laurentis.jpg" alt="drawing" width="100%"/>
 
