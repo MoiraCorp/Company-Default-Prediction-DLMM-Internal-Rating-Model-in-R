@@ -103,7 +103,7 @@ Default rates variation for variable: ROETR (Table_4_26_Page 178_C2_Pt3.pdf)
 The results of evaluation are placed in the column “Empirical Monotinicity” from the synoptic table:  <a id="raw-url" href="https://github.com/MoiraCorp/DLMM-IRating-in-R/blob/main/steps/step11/relpro/assets/Ratios_Synoptic_De%20Laurentis.xls">Ratios_Synoptic_De Laurentis.xls</a>
 Our evaluation is often in synch with that of the author.
 
-Illustrated in: Ratios_Synoptic_De Laurentis.jpg
+Illustrated in **Empirical Monotinicity column** in the table: Ratios_Synoptic_De Laurentis.jpg
 <img src="./assets/Ratios_Synoptic_De Laurentis.jpg" alt="drawing" width="100%"/>
 
 **Our evaluation is often in synch with that of the author.**
