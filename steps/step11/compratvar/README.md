@@ -30,7 +30,7 @@ These 3 columns are named: "Align. Mean", "Align. Trimmed", "Align. Median". <br
 The sign of the each of the differences (ex: mean(“Good”)-mean(“Bad”) is then compared with the sign of the column “Theory sign f(p(D))” (see Section 10a)<br>
 In each of the 3 columns, a “Y” is placed if the sign of the variation is in agreement with the model proposed by the author. Otherwise, it is a “N”.
 
-Illustrated in: Ratios_Synoptic_De Laurentis.jpg
+Illustrated in the **Align. Mean, Align. Trimmed and Align. Median columns** in the table: Ratios_Synoptic_De Laurentis.jpg
 <img src="./assets/Ratios_Synoptic_De Laurentis.jpg" alt="drawing" width="100%"/>
 
 **We note a VERY GOOD COHERENCE with the model proposed by the author in term of the sign of the relation between Ratio Variables and the population of “Default” companies**
