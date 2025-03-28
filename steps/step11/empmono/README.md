@@ -106,3 +106,5 @@ Our evaluation is often in synch with that of the author.
 Illustrated in: Ratios_Synoptic_De Laurentis.jpg
 <img src="./assets/Ratios_Synoptic_De Laurentis.jpg" alt="drawing" width="100%"/>
 
+**Our evaluation is often in synch with that of the author.**
+
