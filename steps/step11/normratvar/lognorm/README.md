@@ -38,7 +38,7 @@ for(i in seq){ <br>
 > grid.arrange(grobs = my_plots, nrow = 4)
 
 Comparison between density shapes before-after Fisher Transform for ratios: (Table_4_26_Page 178_C6b_AllLogNorm.pdf)
-<img src="./assets/Table_4_26_Page 178_C6b_AllLogNorm.pdf.jpg" alt="drawing" width="100%"/><br>
+<img src="./assets/Table_4_26_Page 178_C6b_AllLogNorm.jpg" alt="drawing" width="100%"/><br>
 
 Overall, most of these variables show **a LOW DEGREE OF SEPARABILITY between GOOD and BAD** (idem, Default) groups
 
