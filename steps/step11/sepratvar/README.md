@@ -25,3 +25,11 @@ for(i in 1:34){ <br>
 	} <br>
 } <br>
 > write.csv(INDC7, file = "C:/Projets_En_Cours/AI_MTPL/UCI_Internal_Ratings/R Notes/INDC7.csv")
+
+The p-value Chi-square test results are added as a column to the synoptic table:  <a id="raw-url" href="https://github.com/MoiraCorp/DLMM-IRating-in-R/blob/main/steps/step11/relpro/assets/Ratios_Synoptic_De%20Laurentis.xls">Ratios_Synoptic_De Laurentis.xls</a>
+
+Illustrated in: Ratios_Synoptic_De Laurentis.jpg
+<img src="./assets/Ratios_Synoptic_De Laurentis.jpg" alt="drawing" width="100%"/>
+
+Some Ratio Variables display **significantly low p-value which could characterize good separability capacities.**
+They are: RECEIVAB, V94A, IEONEBIT, NIEONEBI, IEONFINA­ , TAXESONG, TRADERE_ and EBITDAIE
