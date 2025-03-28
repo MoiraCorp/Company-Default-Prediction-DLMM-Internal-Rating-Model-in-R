@@ -37,9 +37,9 @@ Histograms for ratios: IEONLIAB,IEONFINA.,EXTRIC,TAXESONG,INTANGIB,TRADERE.,V110
 Histograms for ratios: EBITDAIE,EQUILIABL,DEBTEQUTR,ROETR (Table_4_26_Page 178_C2_Pt3.pdf)
 <img src="./assets/Table_4_26_Page 178_C6_Pt3.jpg" alt="drawing" width="40%"/><br>
 
-The direct observation of the Ratio Variables suggests that **NO Ratio Variable fits a NORMAL DISTRIBUTION*
+The direct observation of the Ratio Variables suggests that **NO Ratio Variable fits a NORMAL DISTRIBUTION**
 We have classified the shapes of the ditibutions as:
-Wide		: Wider than a Normal distribution with often a slight bimodal tendency
-LogNormal	: Typical LogNormal. Variables could be transformed before processing
-Multimodal	: Most often bimodal
-Abnormal	: For a few variables: EXTRIC and SALESONV, there exist an abnormal high peak around zero values
+- Wide		: Wider than a Normal distribution with often a slight bimodal tendency
+- LogNormal	: Typical LogNormal. Variables could be transformed before processing
+- Multimodal	: Most often bimodal
+- Abnormal	: For a few variables: EXTRIC and SALESONV, there exist an abnormal high peak around zero values
