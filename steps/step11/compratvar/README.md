@@ -24,4 +24,11 @@ are computed and saved in the INDC3 datatable.
 } <br>
 > write.csv(INDC3, file = "C:/Projets_En_Cours/AI_MTPL/UCI_Internal_Ratings/R Notes/INDC3.csv")
 
+The 3 difference vectors are added as columns to the synoptic table: Ratios_Synoptic_De Laurentis.xls
+These 3 columns are named: "Align. Mean", "Align. Trimmed", "Align. Median"
+The sign of the each of the differences (ex: mean(“Good”)-mean(“Bad”) is then compared with the sign of the column “Theory sign f(p(D))” (see Section 10a)
+In each of the 3 columns, a “Y” is placed if the sign of the variation is in agreement with the model proposed by the author. Otherwise, it is a “N”.
 
+
+
+**We note a VERY GOOD COHERENCE with the model proposed by the author in term of the sign of the relation between Ratio Variables and the population of “Default” companies**
