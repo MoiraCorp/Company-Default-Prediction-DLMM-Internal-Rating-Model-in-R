@@ -34,3 +34,11 @@ Values calculated in each step of the selection procedure: <em>
 |  ASSETSTU     |    0.9453482    | 12.14038     | 2.639645e-13    |  4.825591    | 2.822170e-02    |
 </em>
 
+We follow by using the “suite” of Ratio Variables determined by stepwise LDA
+
+> z <- lda(BADGOOD ~ ROETR + IEONLIAB + EQUITYON + V110A + TRADEPA. + ASSETSTU, data=w, prior = c(1,1)/2, CV = TRUE) <br>
+> tab <- table(w$BADGOOD, z$class) <br>
+> tab
+
+
+
