@@ -22,6 +22,15 @@ The MiniUI package is downloaded from: -> https://pbil.univ-lyon1.fr/CRAN/bin/wi
 > BADGOOD ~ ROETR + IEONLIAB + EQUITYON + V110A + TRADEPA. + ASSETSTU <br>
 > <environment: 0x0000000004640b30> <br>
 
-Values calculated in each step of the selection procedure: 
+Values calculated in each step of the selection procedure: <em>
 
+| Ratios    | Wilks.lambda    | F.statistics.overall    | p.value.overall    | F.statistics.diff    | p.value.diff    |
+| ------------ | ------------ | ------------ | ------------- | ------------ | ------------ |
+|    ROETR      |    0.9813240    | 24.07480     | 1.047297e-06    | 24.074799    | 1.047297e-06    |
+|  IEONLIAB     |    0.9628733    | 24.36883     | 4.127506e-11    | 24.220942    | 9.721454e-07    |
+|  EQUITYON     |    0.9554423    | 19.63360     | 1.921645e-12    |  9.822947    | 1.763140e-03    |
+|     V110A     |    0.9521049    | 15.87107     | 1.108036e-12    |  4.423778    | 3.563887e-02    |
+|  TRADEPA.     |    0.9489687    | 13.56220     | 6.535577e-13    |  4.167383    | 4.141703e-02    |
+|  ASSETSTU     |    0.9453482    | 12.14038     | 2.639645e-13    |  4.825591    | 2.822170e-02    |
+</em>
 
