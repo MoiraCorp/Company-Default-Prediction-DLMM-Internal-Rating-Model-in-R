@@ -11,3 +11,11 @@ The table wcs8train.vars contains the complete data set over all the ratios
 > **In lda.default(x, grouping, ...) : variables are collinear** <br>
 > table(w$BADGOOD, z$class)
 
+ ##### <em>The printed output is:
+
+|           | "Bad"    | "Good"       | 
+| --------- | ------- | ------------ |
+| "Bad"        |  19  | 32  |
+| "Good"   | 162  | 1054   |
+
+em>NOTE : </em> This result is **SIMILAR to the one obtained by the author using Stepwise LDA determined formula**
