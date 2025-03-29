@@ -29,4 +29,15 @@ Then, we project the data vectors onto the first PCA componenets and perform LDA
 > z <- lda(BADGOOD ~ ., data=wcs2train.pcaL, prior = c(1,1)/2, CV = TRUE) <br>
 > table(wcs2train.pcaL$BADGOOD, z$class)
 
+##### <em>The printed output is:
+
+|           | "Bad"    | "Good"       | 
+| --------- | ------- | ------------ |
+| "Bad"        |  5  | 46  |
+| "Good"   | 66  | 1150   |
+
+<em>NOTE</em>: **AN IMPROVEMENT IS NOTED.** For class BAD, the results are very similar to those obtained with the raw data 
+BUT for GOOD class, much less companies are misclassified
+
+
 
