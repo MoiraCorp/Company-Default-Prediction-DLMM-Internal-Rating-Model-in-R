@@ -2,6 +2,8 @@
 
 ### Running LDA with “a priori” probabilities deduced from the size of the GOOD-BAD classes in the “observed” population
 
+We use the cbind() and lda() functions from the MASS R package -> https://cran.r-project.org/web/packages/MASS/index.html
+
 > library(MASS) <br>
 > wcs2trainL <- cbind(wcs2train$BADGOOD, wcs2train.ratios) <br>
 > names(wcs2trainL)[1] = "BADGOOD"
