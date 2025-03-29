@@ -19,9 +19,14 @@ We select option: CV = TRUE in oredre to perform one-off classification on each 
 > tab <br>
 
 ##### <em>The printed output is:
-         "Bad" "Good" <br>
-  "Bad"      2     49 <br>
-  "Good"     4   1212 <br>
+
+|           | "Bad"    | "Good"       | 
+| --------- | ------- | ------------ |
+| "Bad"        |  2  | 49  |
+| "Good"   | 4  | 1212   |
+
+</em>
+
 
 ### Running LDA with equal “a priori” probabilities
 
