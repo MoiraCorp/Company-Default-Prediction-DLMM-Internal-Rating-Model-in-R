@@ -13,8 +13,8 @@ We select option: CV = TRUE in oredre to perform one-off classification on each 
 
 > w <- na.omit(wcs2trainL) <br>
 > z <- lda(BADGOOD ~ ., data=w, CV = TRUE) <br>
-> Warning message: <br>
-> In lda.default(x, grouping, ...) : variables are collinear <br>
+> **Warning message:** <br>
+> **In lda.default(x, grouping, ...) : variables are collinear** <br>
 > tab <- table(w$BADGOOD, z$class) <br>
 > tab <br>
 
@@ -29,4 +29,24 @@ We select option: CV = TRUE in oredre to perform one-off classification on each 
 <em>NOTE</em>: The LDA signals that a certain number of variables are colinear
 
 ### Running LDA with equal “a priori” probabilities
+
+The “a priori” probabilities are specified in the list: prior = c(1,1)/2
+
+> w <- na.omit(wcs2trainL) <br>
+> z <- lda(BADGOOD ~ ., data=w, prior = c(1,1)/2, CV = TRUE) <br>
+> **Warning message:** <br>
+> **In lda.default(x, grouping, ...) : variables are collinear** <br>
+> tab <- table(w$BADGOOD, z$class) <br>
+> tab <br>
+
+##### <em>The printed output is:
+
+|           | "Bad"    | "Good"       | 
+| --------- | ------- | ------------ |
+| "Bad"        |  7  | 44  |
+| "Good"   | 146  | 1070   |
+
+<em>NOTE</em>: One can witness **an IMPROVEMENT when using EQUAL “A PRIORI” PROBABILITIES**
+
+
 
