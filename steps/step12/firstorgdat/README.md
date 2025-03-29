@@ -26,7 +26,7 @@ We select option: CV = TRUE in oredre to perform one-off classification on each 
 | "Good"   | 4  | 1212   |
 
 </em>
-
+<em>NOTE</em>: The LDA signals that a certain number of variables are colinear
 
 ### Running LDA with equal “a priori” probabilities
 
