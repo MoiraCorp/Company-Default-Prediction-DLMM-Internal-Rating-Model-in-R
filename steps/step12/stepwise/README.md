@@ -21,3 +21,7 @@ The MiniUI package is downloaded from: -> https://pbil.univ-lyon1.fr/CRAN/bin/wi
 > Formula containing included variables:  <br>
 > BADGOOD ~ ROETR + IEONLIAB + EQUITYON + V110A + TRADEPA. + ASSETSTU <br>
 > <environment: 0x0000000004640b30> <br>
+
+Values calculated in each step of the selection procedure: 
+
+
