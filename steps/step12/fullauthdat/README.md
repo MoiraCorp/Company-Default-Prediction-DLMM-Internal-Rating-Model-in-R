@@ -18,4 +18,4 @@ The table wcs8train.vars contains the complete data set over all the ratios
 | "Bad"        |  19  | 32  |
 | "Good"   | 162  | 1054   |
 
-em>NOTE : </em> This result is **SIMILAR to the one obtained by the author using Stepwise LDA determined formula**
+<em>NOTE : </em> This result is **SIMILAR to the one obtained by the author using Stepwise LDA determined formula**
