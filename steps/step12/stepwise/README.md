@@ -53,5 +53,16 @@ We follow by using the “suite” of Ratio Variables determined by stepwise LDA
 Table 4.28 Stepwise statistics (page 190) it is not fully identical. <br>
 That of the author is:
 
+| Ratios    					| Wilks.lambda    | F.statistics.overall    |
+| --------------------------------------------- | ------------- | ------------ | 
+|  ROETr					| .981    	| 24.075    |   
+|  InterestExpenses/Liabilities			| .963    	| 24.369    |   		
+|  INVENTORY._PERIOD3				| .955    	| 19.854    |   
+|  Equity/Permanent Capital			| .947    	| 17.520    |   
+|  EQUITYon PERMANENT_CAPITAL3			| .935    	| 17.622    |   
+|  SALESBin2cll					| .931    	| 15.573    |   
+|  ROA-(InterestExpenses/ TotalLiabilities)	| .928    	| 13.991    |   
 
+<em>NOTE : </em> One can see that the authors have added 3 ad-hoc “category” (or, “binned”) variables which are:
+INVENTORY_PERIO3, EQUITYonPERMANENT_CAPITAL3 and SALESBin2c11
 
