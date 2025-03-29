@@ -40,5 +40,18 @@ We follow by using the “suite” of Ratio Variables determined by stepwise LDA
 > tab <- table(w$BADGOOD, z$class) <br>
 > tab
 
+##### <em>The printed output is:
+
+|           | "Bad"    | "Good"       | 
+| --------- | ------- | ------------ |
+| "Bad"        |  6  | 45  |
+| "Good"   | 118  | 1098   |
+
+<em>NOTE : </em> The result **somewhat identical to that of the first run of full LDA on original data** with a slight improvement on the GOOD class
+
+</em>Although the list of variables by declining Wilks.lambda looks similar to that of the author in
+Table 4.28 Stepwise statistics (page 190) it is not fully identical. <br>
+That of the author is:
+
 
 
