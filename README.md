@@ -18,4 +18,5 @@ This implementation follows step by step the content of Chap. 4:  Developing a s
 > <p><strong>Step 9</strong> - Analysis of outliers -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step9) </p>
 > <p><strong>Step 10</strong> - Data encoding -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step10) </p>
 > <p><strong>Step 11</strong> - Synoptic table of variable properties -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step11) </p>
-> <p><strong>Step 12</strong> - Linear Discriminant Analysis</p>
+> <p><strong>Step 12</strong> - Linear Discriminant Analysis - Initial approach</p>
+> <p><strong>Step 13</strong> - Stepwise Linear Discriminant Analysis and alternate encoding schemes</p>
