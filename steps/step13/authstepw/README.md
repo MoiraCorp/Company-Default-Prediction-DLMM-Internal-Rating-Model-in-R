@@ -17,14 +17,16 @@ Crashed on: **Error in summary.manova(e2, test = "Wilks") : residuals have rank 
 > **In lda.default(x, grouping, ...) : variables are collinear** <br>
 > table(w$BADGOOD, z$class)
 
- ##### <em>The printed output is:
+ ##### <em>The printed output is:</em>
 
 Prior probabilities of groups:
+
 |           | "Bad"    | "Good"       | 
 | --------- | ------- | ------------ |
 |         |  0.04009434  | 0.95990566  |
 
 Coefficients of linear discriminants:
+
 |           | LD1    |
 | --------- | ------- |
 | ROETR        |   9.964643e-05  |
@@ -34,3 +36,18 @@ Coefficients of linear discriminants:
 | EQUITYON3A   |   8.076022e-03  |
 | SALESBin2cl1 |   5.146604e-01  |
 | ROAMINUS     |  -1.457695e-03  |
+
+Comparative results on regression coefficients presented by author on page 194 as “Canonical discriminant function coefficients:
+
+|   Ratio        | Our results    | Authors' results       | 
+| --------- | ------- | ------------ |		
+|  ROOETR	 |  0	 |  0  |
+|  IEONLIAB	 |  -0.08	 |  0.08  |
+|  V95A3A	 |  -0.0036	 |  0.004  |
+|  EQUITYON	 |  -0.0021	 |  0.002  |
+|  EQUITYON3A	 |  0.0008	 |  -0.008  |
+|  SALESBin2cll	 |  0.514	 |  -0.512  |
+|  ROAMINUS	 |  -0.0014	 |  0.001  |
+
+
+
