@@ -13,3 +13,24 @@ Crashed on: **Error in summary.manova(e2, test = "Wilks") : residuals have rank 
 > w <- na.omit(wcs8train.vars[c(1:54,56:74)]) <br>
 > z <- lda(BADGOOD ~ ROETR + IEONLIAB + V95A3A + EQUITYON + EQUITYON3A + 
     SALESBin2cl1 + ROAMINUS, data = wcs8train.vars, na.action = "na.omit") <br>
+> **Warning message:** <br>
+> **In lda.default(x, grouping, ...) : variables are collinear** <br>
+> table(w$BADGOOD, z$class)
+
+ ##### <em>The printed output is:
+
+Prior probabilities of groups:
+|           | "Bad"    | "Good"       | 
+| --------- | ------- | ------------ |
+|         |  0.04009434  | 0.95990566  |
+
+Coefficients of linear discriminants:
+|           | LD1    |
+| --------- | ------- |
+| ROETR        |   9.964643e-05  |
+| IEONLIAB     |  -7.999371e-02  |
+| V95A3A       |  -3.570714e-03  |
+| EQUITYON     |  -2.099401e-03  |
+| EQUITYON3A   |   8.076022e-03  |
+| SALESBin2cl1 |   5.146604e-01  |
+| ROAMINUS     |  -1.457695e-03  |
