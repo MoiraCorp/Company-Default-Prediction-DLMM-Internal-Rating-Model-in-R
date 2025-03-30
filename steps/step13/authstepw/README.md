@@ -49,5 +49,26 @@ Comparative results on regression coefficients presented by author on page 194 a
 |  SALESBin2cll	 |  0.514	 |  -0.512  |
 |  ROAMINUS	 |  -0.0014	 |  0.001  |
 
+<em>NOTE : </em> **The RESULTS ARE IDENTICAL**
+
+We compute the final comparative cross-classification table
+
+> z <- lda(BADGOOD ~ ROETR + IEONLIAB + V95A3A + EQUITYON + EQUITYON3A + SALESBin2cl1 + ROAMINUS, data= wcs8train.vars, na.action="na.omit", prior = c(1,1)/2, CV = TRUE) <br>
+> tab <- table(wcs8train.vars$BADGOOD, z$class) <br>
+> tab
+
+ ##### <em>The printed output is:
+
+|           | "Bad"    | "Good"       | 
+| --------- | ------- | ------------ |
+| "Bad"        |  14  | 37  |
+| "Good"   | 142  | 1079   |
+
+<em>NOTE : </em> **VERY SIMILAR to the one obtained by the authors (page 201)**
+
+
+
+
+
 
 
