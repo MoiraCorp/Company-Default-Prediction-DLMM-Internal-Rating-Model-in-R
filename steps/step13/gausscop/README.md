@@ -1,4 +1,4 @@
-## Exploring Gaussian Copula (Anamorphosis) encoding
+## Exploring Gaussian Copula encoding (Anamorphosis) 
 
 The gaussian anamorphosis, known also as **Gaussian Copula encoding** is a mathematical function which transforms a variable X with any density distribution into a new variable Y with a Gaussian density distribution. As the Linear Discriminant Analysis method is based on the comparison between GOOD and BAD groups which variables are normaly distributed (idem, Guassian), Gaussian Copula encoding is a way to adapt the data so that it optimaly fits the LDA instrument. 
 
