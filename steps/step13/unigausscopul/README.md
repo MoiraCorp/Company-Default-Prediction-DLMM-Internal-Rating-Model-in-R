@@ -1,1 +1,1 @@
-## Testing the separability GOOD-BAD under Uniform (isopopulation) and Gaussian Copula (Anamorphosis)
+## Testing the separability GOOD-BAD under Gaussian Copula encoding (Anamorphosis)
