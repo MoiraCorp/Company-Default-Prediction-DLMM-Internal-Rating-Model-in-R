@@ -22,7 +22,7 @@ In the case of Linear Discriminant Analysis method (LDA):
 The principles of Linear Discriminant Analysis (LDA)
 <img src="./assets/Machine-Learning-7.jpg" alt="drawing" width="40%"/>  
 
-<em>NOTE:</em> In the present problem, **we have 34 ratios (dimensions) in our data space**.
+<em>NOTE:</em> In the present problem, **we have 34 ratios (dimensions) in our data space**.<br> The dataset is composed of **1221 GOOD companies** and **52 BAD companies**.
 
 ## Method
 
