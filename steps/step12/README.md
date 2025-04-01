@@ -4,10 +4,13 @@ Here we follow step by step the contents of Chap. 4, section 4.6.2 : Linear disc
 
 ## Purpose
 
-The authors are proposing to use Linear Discriminant Analysis method (LDA) in order to solve the problem of estimating the Probability of Default (PD) of a paticular company using its financial accounts.<b>
+The authors are proposing to use Linear Discriminant Analysis method (LDA) in order to solve the problem of estimating the Probability of Default (PD) of a paticular company using its financial accounts.<br>
 Like most of the Machine learning (ML) methods it is conducted in two phases:<br>
 - A **training phase** which determines the statistical characteristics of a representative sample of both GOOD (idem, stable) companies and BD (idem, having defaulted companies). The parameters of the ML model are then determined from these from these characteristics.
-- A **application (or prediction phase)** when the model is used in order to predict the Probability of Default (PD) of any other company over a period which is generally the next year
+- An **application (or prediction phase)** when the model is used in order to predict the Probability of Default (PD) of any other company over a period which is generally the next year
+
+The principles of Linear Discriminant Analysis (LDA)
+<img src="./assets/Machine-Learning-7.jpg" alt="drawing" width="40%"/>  
 
 
 
