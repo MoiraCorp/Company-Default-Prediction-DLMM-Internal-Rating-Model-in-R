@@ -15,7 +15,7 @@ In the case of Linear Discriminant Analysis method (LDA):
   2. The LDA algorithm determines a new set of coordinates which maximises the separability between groups. <br> (In the illustration below, we go from original dimensions to new LD1,LD2 dimensions))
 - The **prediction phase** is also conducted in two phases
   1. The Mahanobis distance between a new company X and the center of a particular group is determined as : **D = (X - M)<sup>t</sup> * Σ<sup>-1</sup> * (X - M)**. In our case, two distances are computed: Dg (GOOD) and Db (BAD)
-  2. The new company is then assigned to the closest group. The Mahalanobis distance being the square root of the negative log likelihood. The probabilty (idem, likelihood) of a company to belong to this group is the computed as: p = 1/<sub>2</sub> * e<sup>-D<sup>2</sup></sup>
+  2. The new company is then assigned to the closest group. The Mahalanobis distance being the square root of the negative log likelihood. The probabilty (idem, likelihood) of a company to belong to this group is the computed as: **p = 1/<sub>2</sub> * e<sup>-D<sup>2</sup></sup>**
 
 
 The principles of Linear Discriminant Analysis (LDA)
