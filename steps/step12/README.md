@@ -22,7 +22,10 @@ In the case of Linear Discriminant Analysis method (LDA):
 The principles of Linear Discriminant Analysis (LDA)
 <img src="./assets/Machine-Learning-7.jpg" alt="drawing" width="40%"/>  
 
-<em>NOTE:</em> In the present problem, **we have 34 ratios (dimensions) in our data space**.<br> The dataset is composed of **1221 GOOD companies** and **52 BAD companies**.
+<em>NOTE:</em> In the present problem, **we have 34 ratios (dimensions) in our data space**. The dataset is composed of **1221 GOOD companies** and **52 BAD companies**.<br>
+For comparison, in the initial work from Altman which led to the well kwown Z-score:
+Altman, E.I., 1968. Financial ratios, discriminant analysis and the prediction of corporate bankruptcy. The journal of finance, 23(4), pp.589-609. https://www.jstor.org/stable/2978933 <br>
+the author used 5 ratios with a balanced training data set of 33 GOOD companies and 33 BAD companies.
 
 ## Method
 
