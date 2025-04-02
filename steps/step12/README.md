@@ -32,5 +32,4 @@ the author used 5 ratios with a balanced training data set of 33 GOOD companies 
 > <p><strong>Data preparation</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step12/dataprep)</p>
 > <p><strong>First run LDA on original data</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step12/firstorgdat)</p>
 > <p><strong>LDA on decorrelated variables using a prior PCA</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step12/priorpca)</p>
-> <p><strong>Stepwise LDA on original data</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step12/stepwise)</p>
 > <p><strong>LDA on full author’s datatable</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step12/fullauthdat)</p>
