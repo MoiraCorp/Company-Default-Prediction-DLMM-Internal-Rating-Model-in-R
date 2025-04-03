@@ -16,8 +16,9 @@ In the case of Linear Discriminant Analysis method (LDA):
 - The **prediction phase** is also conducted in two steps:
   1. The Mahalanobis distance between a new company X and the center of a particular group is determined as :<br> **D = (X - M)<sup>t</sup> * Σ<sup>-1</sup> * (X - M)**. In our case, two distances are computed: Dg (GOOD) and Db (BAD)
   2. The new company is then assigned to the closest group. The Mahalanobis distance being the square root of the negative Log likelihood, the probabilty (idem, likelihood) of a company to belong to this group is computed as: **p = 1/<sub>2</sub> * e<sup>-D<sup>2</sup></sup>**<br>
-  Its is taken as the **Probability of Default (PD)**
+  Its is taken as the **Probability of Default (PD)**<br>
 
+**IMPORTANT NOTE:** The whole LDA method is based on the hypothetis that the variables (here, ratios) are **Normally distributed**
 
 The principles of Linear Discriminant Analysis (LDA)
 <img src="./assets/Machine-Learning-7.jpg" alt="drawing" width="40%"/>  
