@@ -11,7 +11,7 @@ The significance of the change in Λ between the new variables to be added to th
 
 **IMPORTANT NOTES**
   -  The ANOVA Fisher test implies that the **predicting variables are Normally distributed** (idem, display a Gaussain probablity density)
-  -  The Stepwise produres implies that the predicting variables are independent variables. This necessitates a preprocessing phase which is usually conducted in LDA by the determination of the best discriminant feature space. The **axes of this feature space are the predicting variables used by the Stepwise LDA method** (ex: LD1,LD2 in the illustation presented at -> https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step12).
+  -  The Stepwise produres implies that the predicting variables are independent variables. This necessitates a preprocessing phase which is usually conducted in LDA by the determination of the best discriminant feature space. The **axes of this feature space are usually the predicting variables used by the Stepwise LDA method** (ex: LD1,LD2 in the illustation presented at -> https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step12).
 
 
 ## Method
