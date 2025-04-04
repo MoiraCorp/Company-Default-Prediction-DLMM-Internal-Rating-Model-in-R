@@ -8,7 +8,7 @@ The gaussian anamorphosis, known also as **Gaussian Copula encoding** is a mathe
 This aspect of data pre-processing is addressed by the authors in section 4.5.9 Transformation of indicators (pages: 164-177). Although it is there essentially based on the use of formula based transformations and not in terms of **a transformative transition between probability distributions**.
 We have in particular evaluated the use of the LOGIT recoding function in: evaluated Step10 - Transformation of indicators using a logistic formula: the case of the ROE ratio - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step10/logencode)
 
-The concept of transition between two probability distributions was first formulated by J. P. Benzécri, in 1963 in his development of **Correspondence Analysis** as an inductive linguistics method of stistical text analysis. (see ->  Benzécri, J.P., 1969. Statistical analysis as a tool to make patterns emerge from data. In Methodologies of pattern recognition (pp. 35-74). Academic Press. https://helios2.mi.parisdescartes.fr/~lerb/publications/HONOLULU.pdf)<br>
+The concept of transition between two probability distributions was first formulated by J. P. Benzécri, in 1963 in his development of **Correspondence Analysis** as an inductive linguistics method of staistical text analysis. (see ->  Benzécri, J.P., 1969. Statistical analysis as a tool to make patterns emerge from data. In Methodologies of pattern recognition (pp. 35-74). Academic Press. https://helios2.mi.parisdescartes.fr/~lerb/publications/HONOLULU.pdf)<br>
 
 Illlustration of Benzécri concept of probability transition nowadays often better known as "copula"
 <img src="./assets/Benzecri_Transition proba_01.jpg" alt="drawing" width="50%"/>
