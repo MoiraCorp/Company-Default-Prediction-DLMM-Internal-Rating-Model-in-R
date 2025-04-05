@@ -24,6 +24,22 @@ For the second step, the transition table (name tgauss) is borrowed from the Min
        177,178,179,180,181,182,183,184,185,186,187,188,189,190,192,193,<br>
        194,196,197,199,201,203,205,207,209,212,215,219,224,231,241,255)<br>
 
+For illustration, we are applying this Gaussian Copula coding schme to the ROE ratio data form the wcs2train datatable.<br>
+We are using two functions which are avilable in the standard R package:
+ - the quantile function (-> https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/quantile )
+ - the .bincode binning function (-> https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/.bincode )
+
+> \# Generating the isopopulation encoded variable: ROE256
+> bins_cut = 255
+> ROE256 <- .bincode(wcs2train$ROE, quantile(wcs2train$ROE, probs = seq(0, 1, 1/bins_cut), na.rm = TRUE), TRUE)
+> \# Generating the Guass Copula encoded variable: ROE256G
+> ROE256G <- c()
+> ROE256G <- vector(mode="numeric", length(ROE256))
+> for(i in 1:length(ROE256)){ <br>
+	ROE256G[i] <- tgauss[ROE256[i]+1] <br>
+} <br>
+
+> \# Producing an illustration comparing the histograms of ROE256 and ROE256G
 
 
 
