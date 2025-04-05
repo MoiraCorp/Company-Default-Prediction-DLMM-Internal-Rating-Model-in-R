@@ -1,6 +1,17 @@
 ## Applying authors recommended stepwise LDA performed on datatable wcs8train
 
-For this purpose, we are using the klaR R package, the function greedy.wilks performs Stepwise LDA using the Wilk's Lambda criterion, method used by the authors (page 190)
+In order to compare method results on an objective ground, one needs to perform stepwise LDA on the same preprocessed datatable as the authors (as it was already done in step 12 for regular LDA).
+From Page 188, the authors signal that they are using the datatable: W_CS_1_AnalysisSampleDataSet_8MDA.sav
+
+> library(haven)
+> wcs2train8MDA <- read_sav("C:/Projets_En_Cours/AI_MTPL/UCI_Internal_Ratings/SPSS-PASW/W_CS_1_AnalysisSampleDataSet_8MDA.sav ")
+> write.csv(wcs2train8MDA, file = "C:/Projets_En_Cours/AI_MTPL/UCI_Internal_Ratings/SPSS-PASW/ W_CS_1_AnalysisSampleDataSet_8MDA.csv")
+
+After this operation, the file is re-loaded after shortening the variable names following our conventions:
+
+> wcs8trainMDA <- read.csv("C:/Projets_En_Cours/AI_MTPL/UCI_MTPL_Internal_Ratings/SPSS-PASW/W_CS_1_AnalysisSampleDataSet_8MDA.csv", header=TRUE, sep=",")
+
+For the purpose of conducting Stepwise LDA, we are using the klaR R package, the function greedy.wilks performs Stepwise LDA using the Wilk's Lambda criterion, method used by the authors (page 190)
 The kLAR package is downloaded from: https://cran.r-project.org/web/packages/klaR/index.html and locally installed.
 
 > library(klaR) <br>
