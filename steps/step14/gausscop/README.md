@@ -47,8 +47,8 @@ We are using two functions which are avilable in the standard R package:
 > hist(ROE256, breaks = 50)
 > hist(ROE256G, breaks = 50)
 
-Illustrated in: Histo_ROE_to_Isopulation_to_Gauss.pdf
-<img src="./assets/Histo_ROE_to_Isopulation_to_Gauss.pdf" alt="drawing" width="60%"/>
+Illustrated in: Histo_ROE_to_Isopulation_to_Gauss.pdf<br>
+<img src="./assets/Histo_ROE_to_Isopulation_to_Gauss.jpg" alt="drawing" width="80%"/><br>
 <em>NOTE:</em> Final results seems quite satisfactoty, comparison of ROE spread in isopopulation and with Gauss encoding.
 
 
