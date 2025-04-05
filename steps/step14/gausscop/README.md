@@ -40,6 +40,20 @@ We are using two functions which are avilable in the standard R package:
 } <br>
 
 > \# Producing an illustration comparing the histograms of ROE256 and ROE256G
+> \# 2 figures arranged in 1 row and 3 columns
+> attach(mtcars)
+> par(mfrow=c(1,3))
+> hist(wcs2train$ROE, breaks = 50)
+> hist(ROE256, breaks = 50)
+> hist(ROE256G, breaks = 50)
+
+Illustrated in: Histo_ROE_to_Isopulation_to_Gauss.pdf
+<img src="./assets/Histo_ROE_to_Isopulation_to_Gauss.pdf" alt="drawing" width="60%"/>
+<em>NOTE:</em> Final results seems quite satisfactoty, comparison of ROE spread in isopopulation and with Gauss encoding.
+
+
+
+
 
 
 
