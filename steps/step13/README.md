@@ -17,5 +17,5 @@ The significance of the change in Λ between the new variables to be added to th
 ## Method
 
 > <p><strong>Stepwise LDA on original data</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step13/stepwise)</p>
-> <p><strong>Applying authors recommended stepwise LDA</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step13/authstepw)</p>
+> <p><strong>Applying stepwise LDA on authors recommended preprocessed data</strong> - -> (https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step13/authstepw)</p>
 
