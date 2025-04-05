@@ -39,17 +39,37 @@ We are using two functions which are avilable in the standard R package:
 	ROE256G[i] <- tgauss[ROE256[i]+1] <br>
 } <br>
 
-> \# Producing an illustration comparing the histograms of ROE256 and ROE256G
-> \# 2 figures arranged in 1 row and 3 columns
-> attach(mtcars)
-> par(mfrow=c(1,3))
-> hist(wcs2train$ROE, breaks = 50)
-> hist(ROE256, breaks = 50)
-> hist(ROE256G, breaks = 50)
+> \# Producing an illustration comparing the histograms of ROE256 and ROE256G <br>
+> \# 2 figures arranged in 1 row and 3 columns <br>
+> attach(mtcars) <br>
+> par(mfrow=c(1,3)) <br>
+> hist(wcs2train$ROE, breaks = 50) <br>
+> hist(ROE256, breaks = 50) <br>
+> hist(ROE256G, breaks = 50) <br>
 
 Illustrated in: Histo_ROE_to_Isopulation_to_Gauss.pdf<br>
 <img src="./assets/Histo_ROE_to_Isopulation_to_Gauss.jpg" alt="drawing" width="80%"/><br>
 <em>NOTE:</em> Final results seems quite satisfactoty, comparison of ROE spread in isopopulation and with Gauss encoding.
+
+> \# Producing an illustration comparing the histograms of ROE256 and ROE256G <br>
+> \# 1 figures arranged in 1 rows and 3 columns <br>
+> attach(mtcars)
+> par(mfrow=c(1,3)) <br>
+> plot(density(wcs2train$ROE, na.rm=TRUE),  <br>
+	main = sprintf("Density distribution of ROE"),  <br>
+	xlab = sprintf("Values of ROE"), ylab="Density Probability") <br>
+> plot(density(ROE256, na.rm=TRUE),  <br>
+	main = sprintf("Density distribution of ROE Encoded Isopoulation"),  <br>
+	xlab = sprintf("Values of ROE256"), ylab="Density Probability") <br>
+> plot(density(ROE256G, na.rm=TRUE),  <br>
+	main = sprintf("Density distribution of ROE Encoded Gauss"),  <br>
+ 	xlab = sprintf("Values of ROE256G"), ylab="Density Probability") <br>
+
+For better esthetics with densities: Density_ROE_to_Isopulation_to_Gauss.pdf
+<img src="./assets/Density_ROE_to_Isopulation_to_Gauss.jpg" alt="drawing" width="80%"/><br>
+
+
+
 
 
 
