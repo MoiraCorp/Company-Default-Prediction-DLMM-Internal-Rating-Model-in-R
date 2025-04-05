@@ -12,7 +12,7 @@ At this point, we have the following datasets to work with:
 Ex: wcs2trainL <- cbind(wcs2train$BADGOOD, wcs2train.ratios)
 
 In order to compare method results on an objective ground, one needs also to process the same datatable as the authors
-From Page 188, the author signals that he is using the datatable: W_CS_1_AnalysisSampleDataSet_8MDA.sav
+From Page 188, the authors signal that they are using the datatable: W_CS_1_AnalysisSampleDataSet_8MDA.sav
 
 > library(haven)
 > wcs2train8MDA <- read_sav("C:/Projets_En_Cours/AI_MTPL/UCI_Internal_Ratings/SPSS-PASW/W_CS_1_AnalysisSampleDataSet_8MDA.sav ")
