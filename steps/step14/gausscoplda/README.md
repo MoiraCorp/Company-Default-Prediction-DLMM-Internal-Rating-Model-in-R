@@ -82,4 +82,26 @@ Histograms for ratios: COMMERCI,IEONEBIT,NIEONEBI,IEONLIAB,IEONFINA.,EXTRIC,TAXE
 Histograms for ratios: DEBTEQU,CURRENT,QUICKRA,SALESONV,SALESMIN,ROAMINUS,EBITDAIE,EQUILIABL,DEBTEQUTR,ROETR (Density_wcs9train.ratiosG-25-34.pdf)
 <img src="./assets/Density_wcs9train.ratiosG-25-34.jpg" alt="drawing" width="100%"/><br>
 
+#### Proceeding with LDA (Linear Discriminant Analysis
+> \# Preparing datatable for LDA analysis  <br>
+> wcs9trainGL <- cbind(wcs9train$BADGOOD, wcs9train.ratiosG)  <br>
+> names(wcs9trainGL)[1] <- "BADGOOD"  <br>
+> \# Running LDA on all variables with equal “a priori” probabilities for groups "Bad" and "Good"  <br>
+> library(MASS)  <br>
+> \# Removing rows with NA  <br>
+> w <- na.omit(wcs9trainGL)  <br>
+> z <- lda(BADGOOD ~ ., data=w, prior = c(1,1)/2, CV = TRUE)  <br>
+> tab <- table(w$BADGOOD, z$class)  <br>
+> tab  <br>
+      
+##### <em>The printed output is: <br>
+| Group code | "Bad" | "Good" |
+| ---------- | ----- | ------ |
+| "Bad" | 20 | 31 |
+| "Bad" | 331 | 885 |
+</em>
+
+
+
+
 
