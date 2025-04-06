@@ -49,7 +49,7 @@
        177,178,179,180,181,182,183,184,185,186,187,188,189,190,192,193, <br>
        194,196,197,199,201,203,205,207,209,212,215,219,224,231,241,255) <br>
 > bins_cut = 255 <br>
-> \# Encoding all ratios using a Gaussian anamorphosis <br>
+> \# Encoding all ratios using Gauss Copula <br>
 > wcs9train.ratiosG <- wcs9train.ratios <br>
 > for(i in 1:34){ <br>
 	\# Calling .bincode() with quantile(na.rm = TRUE) remove NA and right = TRUE, include.lowest = TRUE, thus generating 256 entries (0 to 255) <br>
@@ -59,3 +59,27 @@
 		wcs9train.ratiosG[j,i] <- tgauss[QUANT256[j]] <br>
 	} <br>
 } <br>
+
+ #### Checking on the separability of Gauss Copula encoded ratios
+> library(grid) <br>
+> library(gridExtra) <br>
+library(ggplot2) <br>
+> \# 12 figures arranged in 3 rows and 4 columns - Part 1 <br>
+> attach(mtcars) <br>
+par(mfrow=c(3,4)) <br>
+> for(i in 25:34){ <br>
+> plot(density(wcs9train.ratiosG[,i], na.rm=TRUE),  <br>
+	main = sprintf("Density distribution of %s",names(wcs9train.ratiosG)[i]),  <br>
+	xlab = sprintf("Values of %s",names(wcs9train.ratiosG)[i]), ylab="Density Probability") <br>
+> } <br>
+
+Histograms for ratios: ROE,EBITDAON,ROI,ROA,V89A,ROS,ASSETSTU,INVENTOR,RECEIVAB,V94A,V95A,PAYABLES (Density_wcs9train.ratiosG-1-12.pdf)
+<img src="./assets/Density_wcs9train.ratiosG-1-12.jpg" alt="drawing" width="100%"/><br>
+
+Histograms for ratios: COMMERCI,IEONEBIT,NIEONEBI,IEONLIAB,IEONFINA.,EXTRIC,TAXESONG,INTANGIB,TRADERE.,V110A,EQUITYON,TRADEPA. (Density_wcs9train.ratiosG-13-24.pdf)
+<img src="./assets/Density_wcs9train.ratiosG-13-24.jpg" alt="drawing" width="100%"/><br>
+
+Histograms for ratios: DEBTEQU,CURRENT,QUICKRA,SALESONV,SALESMIN,ROAMINUS,EBITDAIE,EQUILIABL,DEBTEQUTR,ROETR (Density_wcs9train.ratiosG-25-34.pdf)
+<img src="./assets/Density_wcs9train.ratiosG-25-34.jpg" alt="drawing" width="100%"/><br>
+
+
