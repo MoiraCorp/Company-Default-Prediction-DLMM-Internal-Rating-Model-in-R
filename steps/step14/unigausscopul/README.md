@@ -25,3 +25,7 @@ We are testing the effect of the Gauss Copula encoding on the separability betwe
    		main = sprintf("Density distribution of ROE Encoded Gauss"), xlab="x",  <br>
   		ylab="Density") <br>
 > grid.arrange(grobs = my_plots, nrow = 1) <br>
+
+Illustrated in: Separability_BAD-GOOD_ROE_to_Isopulation_to_Gauss.pdf<br>
+<img src="./assets/Separability_BAD-GOOD_ROE_to_Isopulation_to_Gauss.jpg" alt="drawing" width="80%"/><br>
+<em>NOTE:</em> Despite overlap, **a useful and clear cutting point appears** for both isopopulation and Gauss copula encoding
