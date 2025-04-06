@@ -101,6 +101,10 @@ Histograms for ratios: DEBTEQU,CURRENT,QUICKRA,SALESONV,SALESMIN,ROAMINUS,EBITDA
 | "Bad" | 331 | 885 |
 </em>
 
+<em>NOTE :</em> **It is fairly good result !** in terms of BAD but rather "conservative" in terms of GOOD
+
+
+
 
 
 
