@@ -55,4 +55,4 @@ Here, the R ouput is: <br>
  "Bad" "Good" <br>
     51   1221 <br>
 
-NOTE: All resulting files are available for download at : https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step2/assets
+NOTE: All resulting files are available for download at : https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step1/assets
