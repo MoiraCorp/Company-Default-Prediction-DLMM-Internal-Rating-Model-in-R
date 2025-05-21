@@ -54,3 +54,5 @@ Double check the content of the BADGOOD field (of type "factor" in R) in order t
 Here, the R ouput is: <br>
  "Bad" "Good" <br>
     51   1221 <br>
+
+NOTE: All resulting files are available at : https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step2/assets
