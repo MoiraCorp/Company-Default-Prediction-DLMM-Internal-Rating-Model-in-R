@@ -14,11 +14,14 @@ The package "haven" has been loaded from the USA-CA berkeley CRAN Repository
 The RPackage Haven enables to read the SPSS format
 https://cran.r-project.org/web/packages/haven/index.html
 
+## Specifying your project directory (Replace by the location of your own project directory)
+> projdir = "C:/DLMM_Project/"
+
 ## Reading the full dataset and saving it to .csv
 
 > library(haven)<br>
-> wcs1org <- read_sav("C:/Projets_En_Cours/AI_MTPL/UCI_Internal_Ratings/SPSS-PASW/W_CS_1_OriginalDataSet.sav")<br>
-> write.csv(wcs1org, file = "C:/Projets_En_Cours/AI_MTPL/UCI_Internal_Ratings/SPSS-PASW/W_CS_1_OriginalDataSet.csv")<br>
+> wcs1org <- read_sav(sprintf("%sW_CS_1_OriginalDataSet.sav", projdir))<br>
+> write.csv(wcs1org, file = sprintf("%sW_CS_1_OriginalDataSet.csv", projdir))<br>
 
 ## Reading the "training" dataset and saving it to .csv (page 116)
 
