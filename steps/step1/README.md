@@ -59,3 +59,50 @@ Here, the R ouput is: <br>
     51   1221 <br>
 
 <strong>NOTE: All resulting files are available for download at :</strong> https://github.com/MoiraCorp/DLMM-IRating-in-R/tree/main/steps/step1/assets
+
+## List of ratios used in the DLMM model
+
+<em>
+
+| Variable (Short)    | Variable Name in Text    | Description    |
+|  -----------------------    |  -----------------------    |  -----------------------    |
+| ROE    | ROE    | Ratio Net Profit/Equity    |
+| EBITDAON    | EBITDAonSALES    | Ratio EBITDA/Sales [%]    |
+| ROI    | ROI    | Ratio EBIT/Operating Assets [%]    |
+| ROA    | ROA    | Ratio Current Income/Total Assets [%]    |
+| V89A    | EBITDAonVP    | Ratio EBITDA/Value of Production    |
+| ROS    | ROS    | Ratio EBIT/Sales [%]    |
+| ASSETSTU    | ASSETS_TURNOVER    | Ratio Total Assets/Turnover    |
+| INVENTOR    | INVENTORY_TURNOVER    | Ratio Inventory/Turnover    |
+| RECEIVAB    | Receivables_Turnover    | Ratio Trade Receivables at year end/Turnover    |
+| V94A    | RECEIVABLES_PERIOD    | Ratio Trade Receivables/Daily Sales    |
+| V95A    | INVENTORY_PERIOD    | Ratio Inventory/Daily Sales    |
+| PAYABLES    | PAYABLES_PERIOD    | Ratio Trade Payables/Daily Purchases    |
+| COMMERCI    | COMMERCIAL_WC_PERIOD    | Ratio (Trade Receivables + Inventory – Trade Payables)/Daily Sales    |
+| IEONEBIT    | IEonEBITDA    | Ratio Interest Expenses/EBITDA [%]    |
+| NIEONEBI    | NIEonEBITDA    | Ratio Net Interest Expenses/EBITDA [%]    |
+| IEONLIAB    | IEonLIABLITIES    | Ratio Interest Expenses/Liabilities [%]    |
+| IEONFINA    | IEonFINANCIAL_DEBTS    | Ratio Interest Expenses/Financial Debts [%]    |
+| EXTRIC    | Extr_I_C_onCurrent_Income    | Ratio Gross of Tax Profit/Income from ordinary (current) activities    |
+| TAXESONG    | TaxesOnGross_Profit    | Ratio Taxes/Gross of Tax Profit    |
+| INTANGIB    | INTANGIBLESonTA    | Ratio Intangibles/Total Assets [%]    |
+| TRADERE    | TRADE_RECEIVABLESonTA    | Ratio Trade Receivables/Total Assets [%]    |
+| V110A    | INVENTORIESonTA    | Ratio Inventories/Total Assets [%]    |
+| EQUITYON    | EQUITYonPERMANENT_CAPITAL    | Ratio Equity/Permanent Capital [%]    |
+| TRADEPA    | TRADE_PAYABLESonTL    | Ratio Trade Payables/Total Liabilities [%]    |
+| DEBTEQU    | DEBT_EQUITY_RATIO    | Ratio Debt/Equity [%]    |
+| CURRENT    | CURRENT_RATIO    | Ratio Current Assets/Current Liabilities    |
+| QUICKRA    | QUICK_RATIO    | Ratio (Current Assets – Inventories)/Current Liabilities    |
+| SALESONV    | SALESonVP    | Ratio Sales/Value of Production [%]    |
+| SALESMIN    | SALESminusVConEBIT    | Ratio (Sales –Variable Costs)/EBIT    |
+| ROAMINUS    | ROAminusIEonTL    | ROA minus Ratio Interest Expenses/Total Liabilities    |
+| EBITDAIE    | EBITDAonIE    | Ratio EBITDA/Interest Expenses    |
+| EQUILIABL    | EQUITYonLIABILITIES    | Ratio Equity/Liabilities    |
+| DEBTEQUTR    | DebtEquityTr    | Ratio Interest-bearing Financial Debt/Equity    |
+| ROETR    | ROETr    | Ratio Net Profit/Total Stockholder's Equity    |
+
+</em>
+ 
+## List of financial accounting terms used in the DLMM data set
+
+
