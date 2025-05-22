@@ -105,4 +105,95 @@ Here, the R ouput is: <br>
  
 ## List of financial accounting terms used in the DLMM data set
 
+<em>
+
+| Variable (Short)    | Description    |
+|  -----------------------    |  -----------------------    |
+| IND    | Index in file    |
+| BORCODE    | Borrower's code (assigned by the bank)    |
+| STATUS    | Borrower's classification in regulatory grades (3 = performing, 2 = substandard, 1 = doubtful, 0 = unknown)    |
+| SUBSECTOR    | Numerical code for business subs-sector    |
+| SECTOR    | Numerical code for business sector    |
+| INTASSETS    | Intangible assets, net    |
+| GRFIXASST    | Tangible fixed assets, gross    |
+| ACCDEPREC    | Accumulated depreciation and impairment    |
+| NETFIXASST    | Tangible fixed assets, net    |
+| ADVTAINPRO    | Advances and tangible assets in progress    |
+| NETINVEST    | Investments, net    |
+| SECLOANS    | Securities and loans    |
+| NCROC    | Non-current receivables and other credits    |
+| NCFINASST    | Non-current financial assets    |
+| TOTNCASST    | Total non-current assets    |
+| ADVANCES    | Advances    |
+| RMINVENT    | Raw materials inventories, net    |
+| WIPINVENT    | Work in progress and finished goods, net    |
+| NETINVENT    | Iventories, net    |
+| TRRECEIV    | Accounts and notes receivables    |
+| STLOANS    | Short term loans    |
+| OSTCREDITS    | Other short term credits    |
+| OCASSTS    | Other current assets (prepaid expenses,…)    |
+| CURSEC    | Current securities    |
+| CASH    | Cash and cash equivalents    |
+| CASHSTINV    | Cash and s. t. investments    |
+| TOTCURASST    | Total current assets    |
+| TOTASST    | Total assets    |
+| EQUITY    | Total stockholder's equity    |
+| PROVCHARG    | Provisions for liabilities and charges    |
+| EMPLBENEF    | Employee benefits    |
+| TOTPRVSNS    | Provisions    |
+| BONDS    | Bonds    |
+| BORFROMSH    | Borrowings from shareholders falling due beyond 1 year    |
+| MLTBORBANK    | Borrowings from banks falling due beyond 1 year    |
+| MLTBOROT    | Borrowings from others falling due beyond 1 year    |
+| MLTTROTLIAB    | Trade and other liabilities falling due beyond 1 year    |
+| MLTDEBTS    | Medium and long term debts    |
+| TOTPERMCAP    | Total permanent capital    |
+| STBORBANK    | Bank loans payables    |
+| OTSTLOANS    | Other loans payables    |
+| STFINDEBT    | Short term financial debt    |
+| TRPAYABLES    | Trade payables    |
+| ADPAYMENTS    | Advance payments from customers    |
+| TOTSTPAYAB    | Total trade payables (short term)    |
+| TAXPAYAB    | Tax payables (short term)    |
+| OTSTPAYAB    | Other payables (short term)    |
+| OTSTLIAB    | Other liabalities (short term)    |
+| TOTCURLIAB    | Total current liabilities    |
+| TOTEQU_LIAB    | Total stockholder's equity & liabilities    |
+| SALES    | Net sales    |
+| CHFGWIPINV    | Change in stocks of finished goods and w.i.p.    |
+| CAPITCOSTS    | Capitalized product development costs    |
+| GRANTS    | Grants for the financ.year & other sales (engineering)    |
+| VP    | Value of production    |
+| PURCH    | Purchase of raw materials and consumables    |
+| CHRMINV    | Change in stocks of raw mat. & consumables    |
+| CSTSERV    | Costs for services    |
+| AV    | Added value    |
+| STAFFCOST    | Staff costs    |
+| EBITDA    | Gross operating income    |
+| DEPR    | Depreciation of tangible fixed assets    |
+| WRDWWC    | Write-downs on working capital    |
+| PROV    | Provisions for liabilities and charges    |
+| EBIT    | Net operating income    |
+| ONONFRC    | Other (non-operating non-financial) revenues & charges    |
+| INTCAPITAL    | Capitalization of intangible assets    |
+| DEPRCAPIT    | Depreciation of intangible assets    |
+| EBFPL    | Income on ord. act. before financial P&L    |
+| FININCOM    | Financial income    |
+| FINLOSWD    | Losses on and write-downs of financ.assets    |
+| EBI    | Income of ord. act. before interest exp.    |
+| IE    | Interest and other financial expenses    |
+| EOOA    | Income on ordinary activities    |
+| GLNFA    | Gains (losses) on disposal of non-financ.assets    |
+| RWDNFA    | Reduction in write-downs & (W-D) on non-fin. assets    |
+| EXINCCH    | Extraordinary income and (charges    |
+| GPROF    | Gross profit before tax profit    |
+| CTAX    | Corporate income taxes    |
+| OTAX    | Other taxes    |
+| ADNPROF    | Adjusted net (of tax) profit    |
+| ACCDEPR    | Accelerated depreciation    |
+| OTAXITEM    | Other items due to tax regulations (+ -)    |
+| PROUSRES    | Provisions (-) to and (+) uses of reserves    |
+| NPROF    | Profit (loss) for the financial year    |
+
+</em>
 
