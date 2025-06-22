@@ -1,5 +1,5 @@
  ![MoiraCorp logo](/assets/images/MoiraCorp_Capture.jpg)
-# Commpany Default prediction - DLMM Internal Rating Model in R
+# Company Default prediction - DLMM Internal Rating Model in R
 
 ## Purpose
 
