@@ -15,7 +15,7 @@ The RPackage Haven enables to read the SPSS format
 https://cran.r-project.org/web/packages/haven/index.html
 
 ## Specifying your project directory (Replace by the location of your own project directory)
-> projdir = "C:/DLMM_Project/"
+> projdir = "C:/RExercise/"
 
 ## Reading the full dataset and saving it to .csv
 
