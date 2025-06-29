@@ -109,7 +109,7 @@ Here, the R ouput is: <br>
 
 | Variable (Short)    | Description    |
 |  -----------------------    |  -----------------------    |
-| IND    | Index in file    |
+| INDEX    | Index in file    |
 | BORCODE    | Borrower's code (assigned by the bank)    |
 | STATUS    | Borrower's classification in regulatory grades (3 = performing, 2 = substandard, 1 = doubtful, 0 = unknown)    |
 | SUBSECTOR    | Numerical code for business subs-sector    |
